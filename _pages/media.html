@@ -5,12 +5,27 @@
     <div class="wrapper">
         <div class="inner" data-onvisible-trigger="1">
             <h2 id="text65" class="text-component instance-65 style-4">In the media</h2>
-            <p><strong>Grid Magazine</strong><br /> <a href="https://gridphilly.com/blog-home/2026/03/01/pigeon-fans-spread-knowledge-understanding-through-tours/">Pigeon fans spread knowledge and understanding through tours</a><br /> by Bernard Brown<br /> Mar 1, 2026</p><p><strong>Haverford College Alumni Magazine</strong><br /> <a href="https://www.haverford.edu/marketing-and-communications/news/go-birds">Go Birds!</a><br /> by Mike Newall<br /> Feb 23, 2026</p><p><strong>Positively Philly on PHL17</strong><br /> <a href="https://phl17.com/positively-philly/see-the-city-from-a-pigeons-eye-view/">See the City from a Pigeon’s-Eye View</a><br /> Segment by Abby Urban<br /> Dec 23, 2025</p><p><strong>The Drew Barrymore Show</strong><br /> Mentioned during the &quot;Drew&#39;s News&quot; segment<br /> Nov 13, 2025</p><p><strong>The Philadelphia Inquirer</strong><br /> <a href="https://www.inquirer.com/entertainment/philly-pigeon-tours-italian-market-20251024.html">Philly Pigeon Tours offer a bird’s-eye glimpse of South Philly</a><br /> by Mike Newall<br /> Oct 24, 2025</p>
-            <p id="text74" class="text-component instance-74 style-3"><em>Pending, in production, or not yet released</em></p><p><strong>Pigeon documentary</strong><br /> We provided voiceover for a short pigeon documentary film based on Rosemary Mosco&#39;s <em>A Pocket Guide to Pigeon Watching</em><br /> Film by <a href="https://www.switchboardmagazine.com/shorts-archive/david-again">C Minus Productions</a></span></p>
+            {% for article in site.data.media.articles %}
+                {% include article.html article=article %}
+            {% endfor %}
+
+            <p id="text74" class="text-component instance-74 style-3"><em>Pending, in production, or not yet released</em></p>
+
+            {% for article in site.data.media.pending %}
+                {% include article.html article=article %}
+            {% endfor %}
+
             <hr id="divider01" class="divider-component instance-1 style-1">
             <h2 id="text75" class="text-component instance-75 style-4">Speaking engagements</h2>
             <h3 id="text31" class="text-component instance-31 style-1">Upcoming</h3>
-            <p id="text72" class="text-component instance-72 style-3"><p><strong>The Past, Present and Future of our Relationship with Pigeons</strong><br /> <a href="https://lancasterbirdclub.org/event/monthly-club-meeting-the-past-present-and-future-of-our-relationship-with-pigeons/">Lancaster Birding Club monthly meeting</a><br /> Lancaster, PA<br /> May 14, 2026</p><p><strong>Living With Pigeons: Our Past, Present, and Future</strong><br /> <a href="https://nationalpigeonadvocacyassociation.co.uk/collections/national-pigeon-advocacy-conference-tickets">National Pigeon Advocacy Conference</a><br /> Derby, UK<br /> Oct 10 – 11, 2026</p>
+            {% for event in site.data.speaking %}
+                <p id="text72" class="text-component instance-72 style-3">
+                    <strong>{{ event.title }}</strong>
+                    <br /><a href="{{ event.link }}">{{ event.venue }}</a>
+                    <br />{{ event.location }}
+                    <br />{{ event.date }}
+                </p>
+            {% endfor %}
         </div>
     </div>
 </div>

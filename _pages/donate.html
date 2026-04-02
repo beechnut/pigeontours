@@ -9,17 +9,17 @@
             <div id="embed02" class="embed-component instance-2">
                 <unloaded-script async src="https://js.stripe.com/v3/buy-button.js"></unloaded-script>
                 <center>
-                    <stripe-buy-button buy-button-id="buy_btn_1Sg9HqRjXS825kM7VBw388N6" publishable-key="pk_live_51SQbzJRjXS825kM7R8cfjEWMifnRFWqSMnAbOkJZPPdmb1wqB8qdQPQgmQWfVCZAHnr1b8XFOBxyHB5202CpFVqO00n3xxFFnB"></stripe-buy-button>
+                    <stripe-buy-button buy-button-id="{{ site.data.stripe.buy-button-id }}" publishable-key="{{ site.data.stripe.publishable-key }}"></stripe-buy-button>
                 </center>
             </div>
             <p id="text11" class="text-component instance-11 style-3"><p class="p">We plan to use donations primarily to fund the work of developing educational programs for school and youth. These are more specialized programs, and take more time and labor, but schools don&#39;t always have the resources to cover the full cost.</p><p class="p">We will email all our donors with a report at the end of the year, detailing where donations went.</p><p class="p">We are not a registered non-profit organization, so donations are not tax-deductible. They are, however, appreciated.</p></p>
             <div id="embed06" class="embed-component instance-6">
                 <script async src="https://js.stripe.com/v3/buy-button.js"></script>
                 <center>
-                    <stripe-buy-button buy-button-id="buy_btn_1Sg9HqRjXS825kM7VBw388N6" publishable-key="pk_live_51SQbzJRjXS825kM7R8cfjEWMifnRFWqSMnAbOkJZPPdmb1wqB8qdQPQgmQWfVCZAHnr1b8XFOBxyHB5202CpFVqO00n3xxFFnB"></stripe-buy-button>
+                    <stripe-buy-button buy-button-id="{{ site.data.stripe.buy-button-id }}" publishable-key="{{ site.data.stripe.publishable-key }}"></stripe-buy-button>
                 </center>
             </div>
-            <p id="text73" class="text-component instance-73 style-3"><a href="https://donate.stripe.com/fZu5kF4Yb60DeeV5XAfUQ00">Don&#39;t see a Donate button? Try this link.</a></p>
+            <p id="text73" class="text-component instance-73 style-3"><a href="{{ site.data.stripe.donate_link }}">Don&#39;t see a Donate button? Try this link.</a></p>
         </div>
     </div>
 </div>

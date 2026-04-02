@@ -1,0 +1,16 @@
+<p>
+    <strong>{{ article.publication }}</strong>
+    <br />
+    {% if article.link %}
+        <a href="{{ article.link }}">{{ article.title }}</a>
+    {% endif %}
+    {% if article.caption %}
+        {{ article.caption }}
+    {% endif %}
+    <br />
+    {% if article.byline %}
+        {{ article.byline }}
+        <br />
+    {% endif %}
+    {{ article.date }}
+</p>
