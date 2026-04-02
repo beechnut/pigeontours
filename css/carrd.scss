@@ -718,6 +718,36 @@ blockquote span.p:nth-child(n + 2) {
     margin-top: 1rem;
 }
 
+// Todo common header settings
+
+h1 {
+    color: #404040;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 3.125em;
+    font-weight: 800;
+    letter-spacing: -0.025rem;
+    line-height: 1.25;
+    text-align: left;
+    width: 100%;
+}
+
+h1 mark {
+    color: #0372FA;
+    background-color: transparent;
+}
+
+h1 a {
+    text-decoration: underline;
+}
+
+h1 a:hover {
+    text-decoration: none;
+}
+
+h1 span.p:nth-child(n + 2) {
+    margin-top: 1rem;
+}
+
 h2 {
     color: #404040;
     font-family: 'Lexend Deca', sans-serif;
@@ -726,51 +756,6 @@ h2 {
     font-size: 2em;
     line-height: 1.375;
     font-weight: 600;
-}
-
-h2 mark {
-    color: #0372FA;
-    background-color: transparent;
-}
-
-h2 a {
-    text-decoration: underline;
-}
-
-h2 a:hover {
-    text-decoration: none;
-}
-
-h2 span.p:nth-child(n + 2) {
-    margin-top: 1rem;
-}
-
-.text-component.style-4 {
-    text-align: left;
-    color: #404040;
-    font-family: 'Lexend Deca', sans-serif;
-    letter-spacing: -0.025rem;
-    width: 100%;
-    font-size: 3.125em;
-    line-height: 1.25;
-    font-weight: 800;
-}
-
-.text-component.style-4 mark {
-    color: #0372FA;
-    background-color: transparent;
-}
-
-.text-component.style-4 a {
-    text-decoration: underline;
-}
-
-.text-component.style-4 a:hover {
-    text-decoration: none;
-}
-
-.text-component.style-4 span.p:nth-child(n + 2) {
-    margin-top: 1rem;
 }
 
 .text-component.style-9 {
