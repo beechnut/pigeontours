@@ -1,0 +1,9 @@
+{% if include.columns %}
+  {% assign columns = "columns" %}
+{% else %}
+  {% assign columns = "" %}
+{% endif %}
+
+<div class="container-component style-{{include.style}} default {{columns}} full screen">
+<div class="wrapper">
+<div class="inner" data-onvisible-trigger="1" markdown="1">

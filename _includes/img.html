@@ -1,8 +1,7 @@
-{% assign image = site.data.images.wire %}
-
+{% assign image = site.data.images[include.name] %}
 <div>
   <div id="image01" class="image-component style-1">
-    <span class="frame deferred">
+    <span class="frame">
       <img src="{{ image.src }}" alt="{{ image.alt }}" title="{{ image.title }}" />
     </span>
   </div>
