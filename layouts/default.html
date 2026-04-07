@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+  <head>
+    {% include styles.html %}
+    <!-- Add analytics -->
+
+    <!-- Fix for blank titles -->
+    <title>
+      {% if page.title %}{{ page.title }} | {% endif %}Philly Pigeon Tours
+    </title>
+  </head>
+  <body class="{{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}">
+
+    {% include banner.html %}
+    {% include header.html %}
+
+    <div class="site-wrapper">
+      <div class="site-main">
+        <div class="inner">
+          <main>
+            {{ content }}
+          </main>
+          {% include footer.html %}
+        </div>
+      </div>
+    </div>
+    <!-- Add scripts -->
+  </body>
+</html>

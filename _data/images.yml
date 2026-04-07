@@ -1,0 +1,20 @@
+wire:
+  src: assets/images/wire.jpg
+  alt: Photo of seven pigeons standing on a telephone wire, equally spaced, while another pigeon attempts to land
+  title: Photo by Steve Denisevicz @ Boncreate.com
+  caption: A pigeon comes in for a landing during a Nov 2025 tour. Photo by Steve Denisevicz,&nbsp;<a href="https://Boncreate.com">Boncreate.com</a>
+primrose-glam:
+  src: assets/images/primrose-glam.jpg
+  alt: "Primrose the pigeon"
+  title: "A photo of Primrose the pigeon"
+  caption: Primrose the pigeon. Photo by Aspen&nbsp;Simone
+ny-penn-steps:
+  src: /assets/images/ny-penn-steps.jpg
+ny-pointing:
+  src: /assets/images/ny-pointing.jpg
+  caption: Tour guide HM points out pigeon behavior.
+looking-up:
+  src: /assets/images/looking-up.jpg
+  caption: Watching pigeons with binoculars. Photo by Holden Blanco.
+market:
+  src: /assets/images/market.jpg
