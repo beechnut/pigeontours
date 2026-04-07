@@ -1,4 +1,4 @@
-{% assign tour = site.data.tours | find: "name", include.tour %}
+{% assign tour = site.data.tours[ include.tour ] %}
 
 <ul id="buttons14" class="buttons-component instance-14 style-2">
   <li>
