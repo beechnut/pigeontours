@@ -19,9 +19,8 @@ Ah, New York — America's most pigeon-populated city. You'll never see pigeons 
   <br /> - <a href="{{ site.data.links.inquirer }}">The Philadelphia Inquirer</a>
 </blockquote>
 
-<ul id="buttons16" class="buttons-component instance-16 style-2">
-  <li><a href="{{ site.data.tickets.nyc.manhattan }}" class="n01" role="button">🎟️ Manhattan tickets</a></li>
-</ul>
+{% include tickets.html tour="Manhattan" %}
+
 {% include container-end.html %}
 
 
@@ -34,9 +33,8 @@ On our Manhattan Pigeon Tour, meet the pigeons of the New York.
 
 Your guide will bring you around Midtown Manhattan, visiting established flocks and nesting sites. You'll observe pigeons nesting, dodging traffic, and defying anti-pigeon spikes.
 
-<ul id="buttons09" class="buttons-component instance-9 style-2">
-  <li><a href="{{ site.data.tickets.nyc.manhattan }}" class="n01" role="button">🎟️ Manhattan tickets</a></li>
-</ul>
+{% include tickets.html tour="Manhattan" %}
+
 
 ### What you'll do
 
@@ -47,9 +45,9 @@ Your guide will bring you around Midtown Manhattan, visiting established flocks 
   - Next, we'll visit an established flock and observe all types of pigeons and behaviors. We may even see a hawk or falcon on the hunt!
   - Lastly, we'll visit a nesting site. Depending on the season, we may get lucky and see baby or juvenile pigeons!
 </div>
-<ul id="buttons06" class="buttons-component instance-6 style-2">
-  <li><a href="{{ site.data.tickets.nyc.manhattan }}" class="n01" role="button">🎟️ Manhattan tickets</a></li>
-</ul>
+
+{% include tickets.html tour="Manhattan" %}
+
 {% include container-end.html %}
 
 

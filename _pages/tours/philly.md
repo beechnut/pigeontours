@@ -12,7 +12,7 @@ Ah, Philadelphia — the birthplace of Pigeon Tours. Join us for tours in the It
   <br />- <a href="{{ site.data.links.inquirer }}">The Philadelphia Inquirer</a>
 </blockquote>
 
-{% include tickets.html city="philly" tour="italian_market" %}
+{% include tickets.html tour="Italian Market" %}
 
 {% include container-end.html %}
 
@@ -26,7 +26,7 @@ On our Italian Market Pigeon Tour, meet the pigeons of the historic Italian Mark
 
 Your guide will bring you around the market, visiting nearby flocks and nesting sites. You'll observe pigeons nesting above the market's unique shops, defying anti-pigeon spikes and netting, and boldly strolling through&nbsp;traffic.
 
-{% include tickets.html city="philly" tour="italian_market" %}
+{% include tickets.html tour="Italian Market" %}
 
 ### What you'll do
 
@@ -39,7 +39,7 @@ Your guide will bring you around the market, visiting nearby flocks and nesting 
 - We'll walk up 9th St, observing pigeons braving traffic, nesting in buildings, and snoozing on signs and ledges.
 </div>
 
-{% include tickets.html city="philly" tour="italian_market" %}
+{% include tickets.html tour="Italian Market" %}
 
 {% include container-end.html %}
 
