@@ -1,0 +1,33 @@
+name: Build and Deploy a Jekyll Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  RUBY_VERSION: 3.3.3
+
+jobs:
+  jekyll:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup ruby 💎
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ env.RUBY_VERSION }}
+
+      - name: Build site 🔨
+        uses: limjh16/jekyll-action-ts@v2
+        with:
+          enable_cache: true
+
+      - name: Deploy 🚀
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+
