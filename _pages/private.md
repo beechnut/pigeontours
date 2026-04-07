@@ -2,7 +2,7 @@
 title: Private tours
 ---
 {% include container-start.html style=2 %}
-# Private tours and&nbsp;programs
+# Private Tours &&nbsp;Programs
 
 We offer private tours for events and retreats, as well as educational programs for schools & youth.
 {% include container-end.html %}

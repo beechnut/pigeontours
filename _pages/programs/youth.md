@@ -2,7 +2,8 @@
 title: Youth programs
 ---
 
-# Youth Tours & Programs
+{% include container-start.html style=2 %}
+# Youth Tours &&nbsp;Programs
 
 We offer programs specifically for kids and teens ages 8-18. Youth tours & programs are interactive and tailored to the age and interests of the group.
 
@@ -22,7 +23,11 @@ Depending on the interests the the group, we can also include:
 - Building a brighter future
 </div>
 
+{% include email.html text="Request a youth tour" %}
+{% include container-end.html style=1 %}
 
+
+{% include container-start.html style=1 %}
 ## On-site youth programs
 
 Bring Philly Pigeon Tours to your school, camp, or event!
@@ -45,7 +50,10 @@ This program helps youth develop an understanding of stereotypes, using our soci
 
 In this program, youth learn about some of the incredible innovations humans have developed by mimicking other living beings. Youth will also have a chance to brainstorm ideas for new innovations that pull ideas from other creatures.
 
+{% include email.html text="Inquire about youth programs" %}
+{% include container-end.html %}
 
+{% include container-start.html style=2 %}
 ## Pricing
 
 ### Standard pricing
@@ -57,8 +65,10 @@ For 90-minute programs, $25 per child, with a minimum total  of $350.
 We understand that our pricing may be out of reach for homeschool groups, non-profits, and schools with a smaller budget. In these cases, we use a gift economy model.
 
 If you know that our standard pricing is out of reach, please email us with an offer that works for your budget and also supports our program. While considering your offer, please keep in mind that this is one of our main sources of income.
+{% include container-end.html %}
 
 
+{% include container-start.html style=1 %}
 ## Testimonials
 
 **Marianne Maloy, 3rd Grade Science Teacher, St. Peter's School**:
@@ -76,5 +86,5 @@ If you know that our standard pricing is out of reach, please email us with an o
 
 "Thanks for adding ways for them to feel empowered in their participation (the stick with a pigeon on it, pigeon dances/calls, binoculars, compass, feathers, etc.). HM and Aspen were patient, sweet and really fun to be around -- it's the best to collaborate with adults who love being around kids!"
 
-<br />
-<br />
+{% include email.html text="Get in touch" %}
+{% include container-end.html %}

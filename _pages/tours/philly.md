@@ -51,12 +51,7 @@ Click the button below to send us an email, and we'll notify you when Old City t
 
 (We'll only email you to notify you — we won't put your address into a list or use it for any other reason.)
 
-<ul id="buttons15" class="buttons-component instance-15 style-2">
-  <li>
-    <a href="mailto:hello@phillypigeontours.com" class="n01" role="button">
-      📫 Notify me
-    </a>
-  </li>
-</ul>
+{% include email.html text="Notify me" %}
+
 {% include container-end.html %}
 

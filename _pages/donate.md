@@ -17,7 +17,7 @@ We are not a registered non-profit organization, so donations are not tax-deduct
 
 {% include stripe-donate.html %}
 
-[Don't see a Donate button? Try this link.]({{ site.data.stripe.donate_link }})
+[Don't see a Donate button? Try this link.]({{ site.data.config.stripe.donate_link }})
 
 {% include container-end.html %}
 

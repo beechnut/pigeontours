@@ -60,9 +60,8 @@ If you want to express your interest (which will encourage us to do it), click t
 
 (We'll only email you to notify you — we won't put your address into a list or use it for any other reason.)
 
-<ul id="buttons10" class="buttons-component instance-10 style-2">
-  <li><a href="mailto:hello@phillypigeontours.com" class="n01" role="button">📫 Notify me</a></li>
-</ul>
+{% include email.html text="Notify me" %}
+
 {% include container-end.html %}
 
 
