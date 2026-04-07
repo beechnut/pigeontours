@@ -75,3 +75,5 @@ If you know that our standard pricing is out of reach, please email us with an o
 
 "Thanks for adding ways for them to feel empowered in their participation (the stick with a pigeon on it, pigeon dances/calls, binoculars, compass, feathers, etc.). HM and Aspen were patient, sweet and really fun to be around -- it's the best to collaborate with adults who love being around kids!"
 
+<br />
+<br />
