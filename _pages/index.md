@@ -51,37 +51,6 @@ You'll learn the ups and downs of the relationship between humans and pigeons â€
 </div>
 {% include container-end.html %}
 
-{% include container-start.html style=2 %}
-## What to expect on a tour
-
-When you sign up, we'll send you an email with tour-specific details about accessibility, parking, and what to br
-
-Here's some general information about what you can expect on a typical tour.
-
-### Accessibility
-
-Tours involve about a mile of walking. We choose routes that are easy to travel, but unexpected obstacles may occur.
-
-If you have specific mobility needs or questions, please get in touch and we'll work to meet your needs.
-
-### Transportation
-
-Our tours are held in locations walkable from public transportation.
-
-In Philly, tours are located near 2-hour free street parking or paid parking, and the tours are 90 minutes so you have some buffer.
-
-When you register, location-specific transportation and parking advice will be sent to you.
-
-### What to bring
-
-Pigeon tours are rain-or-shine â€” just like pigeons.
-
-Please wear weather-appropriate clothes, footwear, and sun protection. We also recommend bringing some water.
-
-If you have your own binoculars, we recommend bringing them! If you don't, we have a few loaner pairs to share.
-
-If you plan to tip your guide, you may want to bring cash. (We take <a href="{{ site.data.links.venmo }}">Venmo</a> too.)
-{% include container-end.html %}
 
 {% include container-start.html style=1 %}
 ## Contact us
