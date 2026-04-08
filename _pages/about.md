@@ -3,7 +3,7 @@ title: About us
 ---
 
 {% include container-start.html style=2 %}
-# About us
+# About Philly Pigeon Tours
 {% include container-end.html %}
 
 {% include container-start.html style=2 columns=true %}
