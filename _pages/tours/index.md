@@ -1,4 +1,5 @@
 ---
+title: Tours
 permalink: /tours
 ---
 {% include container-start.html style=2 %}

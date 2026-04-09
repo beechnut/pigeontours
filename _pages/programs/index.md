@@ -1,4 +1,5 @@
 ---
+title: Programs
 permalink: /programs
 ---
 

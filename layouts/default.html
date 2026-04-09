@@ -5,7 +5,7 @@
     <!-- Add analytics -->
     <!-- Fix for blank titles -->
     <title>
-      {% if page.title %}{{ page.title }} &bull; {% endif %}Philly Pigeon Tours
+      {% if page.title != empty %}{{ page.title }} &bull; {% endif %}Philly Pigeon Tours
     </title>
   </head>
   <body class="{{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}">
