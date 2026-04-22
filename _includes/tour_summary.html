@@ -1,0 +1,30 @@
+{% assign tour = site.data.tours[ include.tour ] %}
+
+{% include container-start.html style=include.style columns="true" %}
+<div markdown="1" style="margin-bottom: 0;">
+## {{ tour.name }} tour
+{% include img.html name=include.image caption=false %}
+</div>
+
+<div markdown="1" style="margin-top: 5rem;">
+{{ tour.tagline }}
+
+**Duration:** {{ tour.duration }}
+**Distance:** {{ tour.distance }}
+**Neighborhood:** {{ tour.neighborhood }}
+</div>
+{% include container-end.html %}
+<div class="container-component style-{{include.style}} default full screen">
+<div class="wrapper">
+<div class="inner" data-onvisible-trigger="1" markdown="1" style="padding-top: 0;">
+<ul id="buttons14" class="buttons-component instance-5 style-2">
+  <li>
+    {% include tickets.html tour=include.tour %}
+  </li>
+  <li>
+    <a href="{{ tour.url }}" class="n01" role="button">
+      {{ tour.learn_more_emoji }} Learn more
+    </a>
+  </li>
+</ul>
+{% include container-end.html %}

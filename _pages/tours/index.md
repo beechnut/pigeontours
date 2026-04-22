@@ -11,12 +11,12 @@ permalink: /tours
 
 <ul id="buttons14" class="buttons-component instance-14 style-2">
   <li>
-    <a href="/tours/philly" class="n01" role="button">
+    <a href="/philly" class="n01" role="button">
       🔔 Philadelphia tours
     </a>
   </li>
   <li>
-    <a href="/tours/nyc" class="n01" role="button">
+    <a href="/nyc" class="n01" role="button">
       🗽 New York tours
     </a>
   </li>

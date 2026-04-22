@@ -1,15 +1,4 @@
 <ul id="buttons05" class="buttons-component instance-5 style-2">
-  {% assign tour = site.data.tours.italian_market %}
-  <li>
-    <a href="{{ tour.tickets }}" class="n01" role="button">
-      🎟️ Philadelphia tickets
-    </a>
-  </li>
-
-  {% assign tour = site.data.tours.manhattan %}
-  <li>
-    <a href="{{ tour.tickets }}" class="n01" role="button">
-      🎟️ New York tickets
-    </a>
-  </li>
+  {% include tickets.html city="philly" %}
+  {% include tickets.html city="nyc" %}
 </ul>
