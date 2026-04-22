@@ -29,7 +29,7 @@ Ah, New York — America's most pigeon-populated city. You'll never see pigeons 
 
 {% include img.html name="ny-pointing" %}
 
-On our Manhattan Pigeon Tour, meet the pigeons of the New York.
+On our Manhattan Pigeon Tour, meet the pigeons of New York.
 
 Your guide will bring you around Midtown Manhattan, visiting established flocks and nesting sites. You'll observe pigeons nesting, dodging traffic, and defying anti-pigeon spikes.
 
