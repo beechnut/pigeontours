@@ -17,6 +17,13 @@ tour: italian_market
 On our Italian Market Pigeon Tour, meet the pigeons of the Bella Vista neighborhood and the historic Italian Market on South 9th St.
 
 Your guide will bring you around the neighborhood, visiting nearby flocks and nesting sites. You'll observe pigeons nesting above the market's unique shops, defying anti-pigeon spikes and netting, and boldly strolling through&nbsp;traffic.
+
+**Special tours**
+<div id="list03" class="list-component instance-3 style-1" markdown="1">
+- One Year Anniversary Pigeon Tours<br/>(June 27 &amp; 28)
+- American History Pigeon Tours<br/>(July 3 &ndash; 6)
+</div>
+
 </div>
 
 {% include book.html tour=page.tour %}
