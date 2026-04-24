@@ -588,7 +588,7 @@ body.is-instant::after {
 }
 
 .th-checkout-button {
-  display: none;
+  display: none !important;
 }
 
 .buttons-component {
