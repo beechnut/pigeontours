@@ -3,8 +3,10 @@
 <p style="margin-top: 0 !important; margin-bottom: 0 !important;">99% 5-star reviews!</p>
 {% include tickets.html tour=include.tour city=include.city %}
 {% if tour %}
-<p>
-  This calendar only shows {{ tour.name }} tours. <a href="{{ tour.city.url }}">See all {{ tour.city.name }} tours.</a>
-</p>
+  {% unless city %}
+    <p>
+      This calendar only shows {{ tour.name }} tours. <a href="{{ tour.city.url }}">See all {{ tour.city.name }} tours.</a>
+    </p>
+  {% endunless %}
 {% endif %}
 </div>
