@@ -10,12 +10,18 @@ tour: center_city
 
 {% include img.html name="looking-up" %}
 
+{% include container-start.html style=1 columns=true %}
+<div markdown="1" style="width: 45%;">
 On our Center City Pigeon Tour, encounter Philly's pigeons from Washington Square to City Hall!
 
 Your guide will bring you through Center City, visiting pigeon flocks that live everywhere from grassy parks to nooks in buildings. You'll observe pigeons interacting with people and the built environment, navigating hostile architecture, and bathing in fountains.
+</div>
 
-{% include tickets.html tour=page.tour %}
+{% include book.html tour=page.tour %}
+{% include container-end.html %}
 
+
+{% include container-start.html style=2 %}
 ### What you'll do
 
 <div id="list03" class="list-component instance-3 style-1" markdown="1">

@@ -9,15 +9,21 @@ tour: italian_market
 # Italian Market tour
 
 {% include img.html name="market" %}
+{% include container-end.html %}
 
-{% include tickets.html tour=page.tour %}
 
+{% include container-start.html style=1 columns=true %}
+<div markdown="1" style="width: 45%;">
 On our Italian Market Pigeon Tour, meet the pigeons of the Bella Vista neighborhood and the historic Italian Market on South 9th St.
 
 Your guide will bring you around the neighborhood, visiting nearby flocks and nesting sites. You'll observe pigeons nesting above the market's unique shops, defying anti-pigeon spikes and netting, and boldly strolling through&nbsp;traffic.
+</div>
 
-{% include tickets.html tour=page.tour %}
+{% include book.html tour=page.tour %}
+{% include container-end.html %}
 
+
+{% include container-start.html style=2 %}
 ### What you'll do
 
 {% include img.html name="looking-up" %}
@@ -28,8 +34,6 @@ Your guide will bring you around the neighborhood, visiting nearby flocks and ne
 - We'll visit a nesting site. Depending on the season, we may see baby or juvenile pigeons!
 - We'll walk up 9th St, observing pigeons braving traffic, nesting in buildings, and snoozing on signs and ledges.
 </div>
-
-{% include tickets.html tour=page.tour %}
 
 {% include container-end.html %}
 
@@ -97,7 +101,4 @@ Pigeon tours are rain-or-shine &mdash; just like&nbsp;pigeons &mdash; so make su
 
 If you don't have your own binoculars, no worries &mdash; you can borrow one of our loaner&nbsp;pairs!
 
-{% include tickets.html tour=page.tour %}
-
 {% include container-end.html %}
-

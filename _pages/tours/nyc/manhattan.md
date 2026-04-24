@@ -10,13 +10,21 @@ tour: manhattan
 # Manhattan tour
 
 {% include img.html name="ny-pointing" %}
+{% include container-end.html %}
+
+
+{% include container-start.html style=1 columns=true %}
+<div markdown="1" style="width: 45%;">
 
 On our Manhattan Pigeon Tour, meet the pigeons of New York.
 
 Your guide will bring you around Midtown Manhattan, visiting established flocks and nesting sites. You'll observe pigeons nesting, dodging traffic, and defying anti-pigeon architecture.
+</div>
 
-{% include tickets.html tour=page.tour %}
+{% include book.html tour=page.tour %}
+{% include container-end.html %}
 
+{% include container-start.html style=2 %}
 ### What you'll do
 
 <div id="list01" class="list-component instance-1 style-1" markdown="1">
@@ -25,10 +33,7 @@ Your guide will bring you around Midtown Manhattan, visiting established flocks 
 - Lastly, we'll visit a nesting site. Depending on the season, we may get lucky and see nests, babies, or juvenile pigeons!
 </div>
 
-{% include tickets.html tour=page.tour %}
-
 {% include container-end.html %}
-
 
 
 {% include container-start.html style=2 %}
@@ -87,8 +92,6 @@ Pigeon tours are rain-or-shine &mdash; just like&nbsp;pigeons &mdash; so make su
 </div>
 
 If you don't have your own binoculars, no worries &mdash; you can borrow one of our loaner&nbsp;pairs!
-
-{% include tickets.html tour=page.tour %}
 
 {% include container-end.html %}
 

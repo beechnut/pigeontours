@@ -3,7 +3,7 @@
 {% endcomment %}
 {% if include.tour %}
   {% assign tour = site.data.tours[ include.tour ] %}
-  {% assign widget_id = tour.widget_id %}
+  {% assign widget_id = tour.embed_id %}
   {% assign name = tour.name | prepend: include.pre %}
 {% endif %}
 
@@ -12,16 +12,8 @@
 {% endcomment %}
 {% if include.city %}
   {% assign city = site.data.tours.collections[ include.city ] %}
-  {% assign widget_id = city.widget_id %}
+  {% assign widget_id = city.embed_id %}
   {% assign name = city.name | prepend: include.pre %}
 {% endif %}
 
 <script src="/assets/vendor/ticketinghub/checkout.js" data-widget="{{ widget_id }}" data-no-minify="1"></script>
-
-<ul id="buttons14" class="buttons-component instance-14 style-2">
-  <li>
-    <a class="n01" role="button" onclick="document.getElementById('{{ widget_id }}').style.display='block'">
-      🎟️ {{ name }} tickets
-    </a>
-  </li>
-</ul>

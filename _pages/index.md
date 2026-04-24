@@ -4,7 +4,19 @@ permalink: "/"
 ---
 
 {% include hero.html %}
-{% include ticket_buttons.html %}
+
+<ul id="buttons14" class="buttons-component instance-14 style-2">
+  <li>
+    <a href="/philly" class="n01" role="button">
+       🎟️ Philly tours
+    </a>
+  </li>
+  <li>
+    <a href="/nyc" class="n01" role="button">
+       🎟️ New York tours
+    </a>
+  </li>
+</ul>
 
 {% include container-start.html style=2 %}
 

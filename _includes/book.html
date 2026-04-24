@@ -1,0 +1,10 @@
+<div style="margin-top: 0; margin-bottom: 0; margin-left: 5%; border: 2px solid rgba(64, 64, 64, 0.761); width: 50%; padding: 10px 20px; border-radius: 20px;">
+<h3 style="margin-bottom: 0;">Book your tour</h3>
+<p style="margin-top: 0 !important; margin-bottom: 0 !important;">99% 5-star reviews!</p>
+{% include tickets.html tour=include.tour city=include.city %}
+{% if tour %}
+<p>
+  This calendar only shows {{ tour.name }} tours. <a href="{{ tour.city.url }}">See all {{ tour.city.name }} tours.</a>
+</p>
+{% endif %}
+</div>

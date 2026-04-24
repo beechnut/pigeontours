@@ -1,7 +1,22 @@
+collections:
+  philly: &philly
+    name: "Philly"
+    url: /philly
+    button_id: "535d1174-fbad-40ee-9699-a8ef256754d8"
+    embed_id: "e6141fdc-7876-451a-a045-980b34e41250"
+  nyc: &nyc
+    name: "New York"
+    url: /nyc
+    button_id: "1afb98ca-f159-4ee6-88c2-66511cb6819e"
+    embed_id: "9c7f0293-1857-4c0c-b6ed-6317c866d7f9"
+
+
 italian_market: &italian_market
   name: Italian Market
+  city: *philly
   tickets: https://www.eventbrite.com/e/philly-pigeon-tour-italian-market-tickets-1435753660849?aff=oddtdtcreator
-  widget_id: "063bf0c8-43a9-4ef6-9f79-8c72a6d235cc"
+  button_id: "063bf0c8-43a9-4ef6-9f79-8c72a6d235cc"
+  embed_id: "8a72b961-aca8-43ac-81de-0411004fc4bd"
   tagline: "Meet the pigeons of the historic Italian Market on South 9th St, and visit pigeon nesting sites."
   duration: 1&#189; hours
   distance: 1 mile / 1.6 km
@@ -11,8 +26,10 @@ italian_market: &italian_market
 
 center_city: &center_city
   name: Center City
+  city: *philly
   tickets: "#"
-  widget_id: "dcfb1b93-a5a6-43bb-b3a5-c04fda4eaaa6"
+  button_id: "dcfb1b93-a5a6-43bb-b3a5-c04fda4eaaa6"
+  embed_id: "80aacbb1-5a2f-489d-a26c-d9e9dbe1ad9e"
   tagline: "Encounter Philly’s pigeons from Washington Square to City Hall!"
   duration: 1&#189; hours
   distance: 1 mile / 1.6 km
@@ -22,8 +39,10 @@ center_city: &center_city
 
 manhattan: &manhattan
   name: Manhattan
+  city: *nyc
   tickets: https://www.eventbrite.com/e/new-york-pigeon-tour-manhattan-tickets-1968335848509?aff=oddtdtcreator
-  widget_id: "8bdde42f-0c5d-4fba-8ada-c0946399c93f"
+  button_id: "8bdde42f-0c5d-4fba-8ada-c0946399c93f"
+  embed_id: "16aafa51-8b8b-4fad-8058-d831f7195142"
   tagline: "Visit the pigeons of New York City!"
   duration: 1&#189; hours
   distance: 1 mile / 1.6 km
@@ -34,19 +53,12 @@ manhattan: &manhattan
 brooklyn: &brooklyn
   name: Brooklyn
   tickets: "#"
-  widget_id: "72e3f8b0-7f3f-46e0-bb82-6fd8ee181f56"
+  city: *nyc
+  button_id: "72e3f8b0-7f3f-46e0-bb82-6fd8ee181f56"
+  embed_id: "e967be28-f037-4b0b-870a-5fdab51c5c2d"
   tagline: "Meet the pigeons of Prospect Park!"
   duration: 1&#189; hours
   distance: 1.3 miles / 2 km
   neighborhood: Prospect Park
   learn_more_emoji: 🍕
   url: /nyc/brooklyn
-
-
-collections:
-  philly:
-    name: "Philly"
-    widget_id: "535d1174-fbad-40ee-9699-a8ef256754d8"
-  nyc:
-    name: "New York"
-    widget_id: "1afb98ca-f159-4ee6-88c2-66511cb6819e"
