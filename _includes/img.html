@@ -6,6 +6,8 @@
     </span>
   </div>
   <p class="text-component style-9">
-    {{ image.caption }}
+    {% if include.caption | default: true, allow_false: true %}
+      {{ image.caption }}
+    {% endif %} {{ image.credit }}
   </p>
 </div>

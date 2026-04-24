@@ -7,6 +7,7 @@ permalink: "/"
 {% include ticket_buttons.html %}
 
 {% include container-start.html style=2 %}
+
 Join us for pigeon-focused urban birding tours in Philly and New York!
 
 Great for all ages, and perfect for locals and tourists alike.
