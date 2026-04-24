@@ -587,6 +587,10 @@ body.is-instant::after {
   transition: none;
 }
 
+.th-checkout-button {
+  display: none;
+}
+
 .buttons-component {
   cursor: default;
   display: flex;
