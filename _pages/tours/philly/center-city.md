@@ -33,8 +33,6 @@ Your guide will bring you through Center City, visiting pigeon flocks that live 
 - Lastly, we'll visit City Hall, where we'll discuss pigeon history and observe a larger flock snacking, drinking, and bathing.
 </div>
 
-{% include tickets.html tour=page.tour %}
-
 {% include container-end.html %}
 
 
@@ -99,8 +97,6 @@ Pigeon tours are rain-or-shine &mdash; just like&nbsp;pigeons &mdash; so make su
 </div>
 
 If you don't have your own binoculars, no worries &mdash; you can borrow one of our loaner&nbsp;pairs!
-
-{% include tickets.html tour=page.tour %}
 
 {% include container-end.html %}
 
