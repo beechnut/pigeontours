@@ -2,8 +2,7 @@
 <html lang='en-US'>
   <head>
     {% include styles.html %}
-    <!-- Add analytics -->
-    <!-- Fix for blank titles -->
+    {% include analytics.html %}
     <title>
       {% if page.title != empty %}{{ page.title }} &bull; {% endif %}Philly Pigeon Tours
     </title>
