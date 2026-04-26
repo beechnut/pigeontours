@@ -9,6 +9,8 @@ tour: center_city
 # Center City tour
 
 {% include img.html name="looking-up" %}
+{% include container-end.html %}
+
 
 {% include container-start.html style=1 columns=true %}
 <div markdown="1" style="width: 45%;">
