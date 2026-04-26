@@ -26,8 +26,8 @@ This calendar shows all Philly tours, including:
 <div id="list03" class="list-component instance-3 style-1" markdown="1">
 - Italian Market Pigeon Tours
 - Center City Pigeon Tours
-- One Year Anniversary Pigeon Tours<br/>(June 27 &amp; 28)
-- American History Pigeon Tours<br/>(July 3 &ndash; 6)
+- One Year Anniversary Pigeon Tours<br/>(June 27 &amp; 28, Italian Market route)
+- American History Pigeon Tours<br/>(July 3 &ndash; 6, Italian Market route)
 </div>
 </div>
 

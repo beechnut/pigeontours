@@ -64,8 +64,18 @@ You'll learn the ups and downs of the relationship between humans and pigeons â€
 </div>
 {% include container-end.html %}
 
+{% include container-start.html style=1 columns=true %}
+<div markdown="1" style="width: 45%;">
+### All Pigeon Tours
 
-{% include container-start.html style=1 %}
+This calendar shows all tours in all cities (Philadelphia and New York).
+</div>
+
+{% include book.html city="philly" %}
+{% include container-end.html %}
+
+
+{% include container-start.html style=2 %}
 ## Contact us
 
 If you have any questions or need more information, please feel free to get in touch!

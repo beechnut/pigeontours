@@ -44,9 +44,27 @@ Your guide will bring you around the neighborhood, visiting nearby flocks and ne
 
 {% include container-end.html %}
 
+{% include container-start.html style=3 %}
+## Special tour dates
+
+### One Year Anniversary / Primrose's Birthday
+
+Dates: June 27 &ndash; 28, 2026
+
+Join us to celebrate one year of pigeon tours! And Primrose, our ambassador pigeon, turns 4 years old! We'll celebrate both events with a special tour.
+
+### Pigeons in America
+
+Dates: July 3 &ndash; 6, 2026
+
+During the 4th of July weekend / America's 250th celebration in Philadelphia, join us for a special American history pigeon tour.
+
+On this tour, we'll cover more about how pigeons relate to current events, such as colonization and migration, and we'll dive deeper into the history of the extinct passenger pigeon that was once native to North America.
+
+{% include container-end.html %}
+
 
 {% include container-start.html style=2 %}
-
 ## What to expect
 
 {% assign tour = site.data.tours[page.tour] %}
