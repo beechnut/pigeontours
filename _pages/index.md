@@ -71,7 +71,7 @@ You'll learn the ups and downs of the relationship between humans and pigeons â€
 This calendar shows all tours in all cities (Philadelphia and New York).
 </div>
 
-{% include book.html city="philly" %}
+{% include book.html city="all" %}
 {% include container-end.html %}
 
 
