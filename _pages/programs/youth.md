@@ -71,6 +71,15 @@ If you know that our standard pricing is out of reach, please email us with an o
 {% include container-start.html style=1 %}
 ## Testimonials
 
+**Alexis Sellers, Bucks Learning Collaborative**:
+
+"Bucks Learning Cooperative had an incredible time on the Philly Pigeon Tour! The teenagers were engaged throughout and the area we explored was super pleasant and enjoyable to walk through."
+
+"We especially appreciated learning about the cultural negative perceptions of pigeons and this tour helped us see just how wonderful pigeons truly are."
+
+"This was a unique and memoriable experience and we highly recommend. You walk, you talk and you pigeon dance! You can't beat it!"
+
+
 **Marianne Maloy, 3rd Grade Science Teacher, St. Peter's School**:
 
 "The students learned about adaptations through the tour. We were able to reference many of the points from the tour in our science lessons, including comparing the pigeon's adaptations to other animals."
@@ -80,7 +89,7 @@ If you know that our standard pricing is out of reach, please email us with an o
 "They loved seeing the pigeons up close and even got to see a nest with an egg!"
 
 
-**Anna D'Isidoro, The Dandelion Project**:
+**Anna D'Isidoro, Wild Seeds Facilitator, The Dandelion Project**:
 
 "I loved so much about how [HM and Aspen] approached a tour for kids! It was interactive, fun, silly, and heartwarming. The kids came back and were excited about what they had just learned and were emphatic about how much they were glad they decided to go. The content was a great blend of history, placefulness, and biology."
 
