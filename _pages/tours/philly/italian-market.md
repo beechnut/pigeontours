@@ -20,6 +20,7 @@ Your guide will bring you around the neighborhood, visiting nearby flocks and ne
 
 **Special tours**
 <div id="list03" class="list-component instance-3 style-1" markdown="1">
+- Queer Singles Mixer Tour<br/>(May 31)
 - One Year Anniversary Pigeon Tours<br/>(June 27 &amp; 28)
 - American History Pigeon Tours<br/>(July 3 &ndash; 6)
 </div>
@@ -46,6 +47,19 @@ Your guide will bring you around the neighborhood, visiting nearby flocks and ne
 
 {% include container-start.html style=3 %}
 ## Special tour dates
+
+### Queer Singles Mixer Tour
+
+Date: Saturday May 30, 2026 @ 2 &ndash; 4:30 pm
+
+Get a head start on Pride Month with a queer singles mixer pigeon tour!
+
+Meet like-minded (or at least pigeon-friendly) queer folks who are also looking for a primary / anchor type partner.
+
+This pigeon tour will provide extra opportunities to get to know folks, including icebreakers, an opt-in pigeon-mating-dance contest, and an indoor space with refreshments after the tour.
+
+Optional matchmaking service included. (You tell us who you're interested in, and if it's mutual, we'll connect you.)
+
 
 ### One Year Anniversary / Primrose's Birthday
 
