@@ -6,7 +6,14 @@ title: Private tours
 
 We offer private tours for groups of up to 25 people.
 
-People have scheduled private tours to celebrate a **birthday** or **bachelorette party**, to host a **company retreat**, or as an **outdoor/birding club outing**.
+People have scheduled private tours to:
+
+<div id="list01" class="list-component instance-1 style-1" markdown="1">
+- celebrate a birthday or bachelorette party
+- host a company retreat
+- go on a outdoor/birding club outing
+- supplement a college / university course
+</div>
 
 Private tours are currently only available in Philadelphia.
 

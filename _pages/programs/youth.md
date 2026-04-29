@@ -5,8 +5,9 @@ title: Youth programs
 {% include container-start.html style=2 %}
 # Youth Tours &&nbsp;Programs
 
-We offer programs specifically for kids and teens ages 8-18. Youth tours & programs are interactive and tailored to the age and interests of the group.
+We offer programs specifically for kids and teens ages 6&nbsp;&ndash;&nbsp;18. Youth tours & programs are interactive and tailored to the age and interests of the group.
 
+For college / university courses, [email us](mailto:hello@phillypigeontours.com) to schedule a private tour, which we can tailor to the curriculum / topics of interest.
 
 ## Youth pigeon tours
 
@@ -32,7 +33,7 @@ Depending on the interests the the group, we can also include:
 
 Bring Philly Pigeon Tours to your school, camp, or event!
 
-Each program is typically 90 minutes, but can be adapted to shorter lengths (e.g. one class period). We tailor our programs to any age between 8&nbsp;&ndash;&nbsp;18.
+Each program is typically 90 minutes, but can be adapted to shorter lengths (e.g. one class period). We tailor our programs to any age between 6&nbsp;&ndash;&nbsp;18.
 
 Our co-founders and guides have backgrounds in natural sciences, human geography, birding, mindfulness, restorative justice, and more, and we love using pigeons as a window into learning about a broad array of topics.
 
@@ -44,7 +45,7 @@ This program pulls in a lot of what we cover on a typical pigeon tour to identif
 
 ### Practicing Empathy
 
-This program helps youth develop an understanding of stereotypes, using our society’s view of pigeons as an easy doorway. We talk about how misinformation and fear often reinforce stereotypes, how to notice thoughts based on stereotypes in our own minds, and what it will take to build a more collaborative and loving future. The structure of this program incorporates restorative justice / restorative practices, and is highly interactive.
+In this program, we use restorative circle practices to explore our feelings and thoughts about pigeons, and we use this as a doorway into understanding stereotypes and misinformation. We talk about how misinformation led to widespread fear and dislike of pigeons, how this relates to what happens between groups of humans, and what it will take to build a more collaborative and loving future.
 
 ### Biomimicry: Learning from Nature
 
@@ -58,7 +59,7 @@ In this program, youth learn about some of the incredible innovations humans hav
 
 ### Standard pricing
 
-For 90-minute programs, $25 per child, with a minimum total  of $350.
+For 90-minute programs, $25 per child, with a minimum total of $350.
 
 ### Gift economy pricing
 
