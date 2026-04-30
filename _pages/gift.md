@@ -5,28 +5,10 @@ title: Gift cards
 {% include container-start.html style=1 %}
 # Gift Cards
 
+Looking for a unique gift? Give the experience of a pigeon tour!
 
-**We're currently transitioning between gift card systems.**
+Use the "Select product" menu to pick a tour and the number of tickets, and the amount will fill in for you. Or, type an amount in directly.
 
-We aren't able to process any gift cards right now &mdash; sorry for any inconvenience!
-
-Please check back on Saturday, May 2nd, 2026, and we should be back up!
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<script src="https://assets.ticketinghub.com/checkout.js" data-widget="16110b6a-fd1d-48d8-be23-da4c4cd0d2a7" data-no-minify="1"></script>
 
 {% include container-end.html %}
