@@ -10,7 +10,7 @@ title: Gift cards
 
 We aren't able to process any gift cards right now &mdash; sorry for any inconvenience!
 
-Please check back on Saturday, April 25th, 2026, and we should be back up!
+Please check back on Saturday, May 2nd, 2026, and we should be back up!
 
 <br/>
 <br/>
