@@ -6,7 +6,7 @@ permalink: "/global"
 {% include container-start.html style=2 %}
 # Global Pigeon Tour
 
-Did you go on a Philly Pigeon Tour and say, "I could use like ten more days of that?"
+Did you go on a Philly Pigeon Tour and say, "I could use ten more days of that?"
 
 Are you interested in learning about pigeons, in the places where pigeon history happened?
 
@@ -14,7 +14,7 @@ The **Global Pigeon Tour** will be a journey across the U.S. and Europe, to visi
 
 We are currently **assessing interest** in this tour. It is not scheduled or finalized.
 
-If you are interested &mdash; or at least curious &mdash; we'd love to hear your thoughts. Your input will help us craft a unique, accessible, and educational tour!
+If you are interested &mdash; or at least curious &mdash; please click the button below. You'll be the first to be notified when the tour registration opens, and your (optional) input on a few questions will help us craft a great tour!
 
 {% comment %}{% include button.html msg="🌍 I'm interested" url="google form" %}{% endcomment %}
 <ul id="buttons14" class="buttons-component instance-14 style-2">
