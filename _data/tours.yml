@@ -31,7 +31,7 @@ center_city: &center_city
   name: Center City
   city: *philly
   embed_id: "80aacbb1-5a2f-489d-a26c-d9e9dbe1ad9e"
-  tagline: "Encounter Philly’s pigeons from Washington Square to City Hall!"
+  tagline: "Encounter Philly’s pigeons from Independence Mall to City Hall!"
   duration: 1&#189; hours
   distance: 1 mile / 1.6 km
   neighborhood: Center City

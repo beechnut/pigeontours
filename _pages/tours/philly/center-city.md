@@ -14,7 +14,7 @@ tour: center_city
 
 {% include container-start.html style=1 columns=true %}
 <div markdown="1" style="width: 45%;">
-On our Center City Pigeon Tour, encounter Philly's pigeons from Washington Square to City Hall!
+On our Center City Pigeon Tour, encounter Philly's pigeons from Independence Mall to City Hall!
 
 Your guide will bring you through Center City, visiting pigeon flocks that live everywhere from grassy parks to nooks in buildings. You'll observe pigeons interacting with people and the built environment, navigating hostile architecture, and bathing in fountains.
 </div>
@@ -48,7 +48,7 @@ This tour lasts **{{ tour.duration }}**. Out of respect for your time, we aim to
 {{ tour.distance }}
 
 ### Meetup / ending location
-We start the tour in Washington Square Park, and end at City Hall, about {{ tour.distance }} away.
+We start the tour at the Independence Visitor Center at 599 Market Street, and end at City Hall, about {{ tour.distance }} away.
 
 **This is a one-way tour route**, but both locations are a short distance from public transit.
 
@@ -58,31 +58,29 @@ Sidewalks in this neighborhood are relatively flat. We are not aware of permanen
 If you have specific mobility needs or questions, please get in touch and we'll work to meet your&nbsp;needs.
 
 ### Restrooms
-There are several cafes around Washington Square Park that have restrooms, but expect to purchase something.
 
-It is unclear whether any nearby restrooms are wheelchair-accessible. (We will update this as we learn more.)
+There are restrooms inside the Independence Visitor Center.
 
 ### Food and water
 
-Cafes near Washington Square Park offer coffee/tea drinks, snacks, meals, and water. We recommend arriving at least 25 minutes early if you plan to order something before a tour.
+We don't have planned stops for refreshments during the tour, but there are abundant options near our start and end points.
 
 ### Public transportation
 
-Take the Market-Frankford Line ("The L") to either **8th St** or **5th&nbsp;St&nbsp;/&nbsp;Independence&nbsp;Hall**. Washington Square Park is less than a 10-minute walk from both stops.
+Take the Market-Frankford Line ("The L") to **5th&nbsp;St&nbsp;/&nbsp;Independence&nbsp;Hall**.
 
-To get from City Hall (our end location) back to Washington Square Park, take the Market-Frankford Line from **15th St / City Hall** to **8th St**.
+To get from City Hall (our end location) back to the Independence Visitor Center, take the Market-Frankford Line from **15th St / City Hall** to **5th St**.
 
 ### Parking
 
 The meetup location has the following parking nearby:
 
 <div class="list-component style-1" markdown="1">
-- paid parking garages at the southeast corner of Washington Square Park
+- Autopark at Independence Mall (closest)
+- Many other paid parking garages
 </div>
 
-There may be metered parking, but we don't have enough information yet to make a suggestion.
-
-We do not recommend parking in 2-hour spots on residential streets, as it's unlikely you'll be able to return to your car in time. Parking in this area is both challenging to find and strictly enforced.
+We do not recommend parking in 2-hour street parking, as it's unlikely you'll be able to return to your car in time after the tour ends. Street parking in this area is both challenging to find and strictly enforced.
 
 ### What to bring
 
