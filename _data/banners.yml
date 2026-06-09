@@ -1,7 +1,3 @@
 -
-  path: /philly
-  message: &parking |
-    Parking may be challenging for May 16 tours, due to the Italian Market Festival.
-
-- path: /philly/italian-market
-  message: *parking
+  path: /
+  message: We've added more Philly Center City tours! <a href="/philly/center-city">Take a look &rarr;</a

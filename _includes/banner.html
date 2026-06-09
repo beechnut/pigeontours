@@ -1,7 +1,7 @@
 {% assign current_path = page | relative_url %}
 
 {% for banner in site.data.banners %}
-  {% if current_path == banner.path %}
+  {% if banner.path == nil or banner.path == "*" or current_path == banner.path %}
     <div id="container28" class="container-component instance-28 style-4 default full screen">
       <div class="wrapper">
         <div class="inner" data-onvisible-trigger="1">
