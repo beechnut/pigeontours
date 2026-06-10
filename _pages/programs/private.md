@@ -26,7 +26,7 @@ Private tours are currently only available in Philadelphia.
 
 ### Standard pricing
 
-Our standard private tour pricing is $25 per person, with a minimum based on the day of the week.
+Our standard private tour pricing is $25 per adult and $10 for kids aged 4 – 12, with a minimum based on the day of the week.
 
 Weekdays (Monday through Friday): $125 minimum<br /> Weekends (Saturday and Sunday): $300 minimum
 
