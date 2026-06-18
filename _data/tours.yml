@@ -38,6 +38,17 @@ center_city: &center_city
   learn_more_emoji: 🔔
   url: /philly/center-city
 
+america: &america
+  name: Pigeons in America
+  city: *philly
+  embed_id: "670993dd-9c57-40f2-9b08-9b575ea2f6d7"
+  tagline: "Discover American history from the pigeon's perspective"
+  duration: 1&#189; hours
+  distance: 1 mile / 1.6 km
+  neighborhood: Bella Vista
+  learn_more_emoji: 🗽
+  url: /america
+
 manhattan: &manhattan
   name: Manhattan
   city: *nyc

@@ -14,6 +14,7 @@ Ah, Philadelphia — the birthplace of Pigeon Tours. Join us for tours in the It
 </blockquote>
 {% include container-end.html %}
 
+{% include tour_summary.html tour="america" style="2" image="primrose-glam-landscape" %}
 {% include tour_summary.html tour="italian_market" style="1" image="market" %}
 {% include tour_summary.html tour="center_city" style="2" image="looking-up" %}
 
@@ -23,12 +24,13 @@ Ah, Philadelphia — the birthplace of Pigeon Tours. Join us for tours in the It
 
 This calendar shows all Philly tours, including:
 
-<div id="list03" class="list-component instance-3 style-1" markdown="1">
-- Italian Market Pigeon Tours
-- Center City Pigeon Tours
-- One Year Anniversary Pigeon Tours<br/>(June 27 &amp; 28, Italian Market route)
-- American History Pigeon Tours<br/>(July 3 &ndash; 6, Italian Market route)
-</div>
+Italian Market Pigeon Tours
+
+Center City Pigeon Tours
+
+One Year Anniversary Pigeon Tours (June 27 &amp; 28, Italian Market route)
+
+<a href="/america">Pigeons in America tours</a><br/>(July 3 &ndash; 6, Italian Market route)
 </div>
 
 {% include book.html city="philly" %}

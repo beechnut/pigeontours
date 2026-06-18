@@ -10,6 +10,12 @@ primrose-glam:
   title: "A photo of Primrose the pigeon"
   caption: Primrose the pigeon.
   credit: Photo by Aspen&nbsp;Simone.
+primrose-glam-landscape:
+  src: assets/images/primrose-glam-landscape.jpg
+  alt: "Primrose the pigeon"
+  title: "A photo of Primrose the pigeon"
+  caption: Primrose the pigeon.
+  credit: Photo by Aspen&nbsp;Simone.
 ny-penn-steps:
   src: /assets/images/ny-penn-steps.jpg
 ny-pointing:

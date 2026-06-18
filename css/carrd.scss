@@ -1,6 +1,10 @@
 ---
 ---
 
+// sky blue   #C0F0F7
+// dark green #1C3E42
+// light orange #FFFBF7
+
 @font-face {
   font-family: "Lexend Deca";
   src: url("/assets/fonts/lexend-deca/LexendDeca-VariableFont_wght.ttf");
@@ -303,20 +307,30 @@ nav > ul > li > ul {
   left: -1rem;
   width: auto;
   min-width: 12rem;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 0.5rem 0 0 0;
   line-height: 1.75rem;
   z-index: 10;
   background-color: rgb(192, 240, 247);
   text-align: left;
 }
 
-nav > ul > li > ul > li {
-  padding: 0.125rem 0;
-}
-
 nav > ul > li:hover > ul {
   display: inline-block;
 }
+
+nav > ul > li > ul > li {
+  padding: 0.125rem 1rem;
+  min-width: 220px;
+}
+
+nav > ul > li > ul > li:hover {
+  background-color: #93E4F1;
+}
+
+li.special.event {
+  background-color: #F8BA4F;
+}
+
 
 html {
     font-size: 17pt;

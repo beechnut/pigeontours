@@ -1,3 +1,6 @@
 -
-  path: /
-  message: We've added more Philly Center City tours! <a href="/philly/center-city">Take a look &rarr;</a
+  paths:
+    - /
+    - /philly
+  message:
+    Join us 4th of July weekend for Pigeons in America! <a href="/america">Take a look &rarr;</a>
