@@ -12,6 +12,7 @@ on:
 
 env:
   RUBY_VERSION: 3.3.3
+  JEKYLL_ENV: production
 
 jobs:
   jekyll:
