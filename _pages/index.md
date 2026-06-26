@@ -68,7 +68,7 @@ You'll learn the ups and downs of the relationship between humans and pigeons â€
 <div markdown="1" style="width: 45%;">
 ### All Pigeon Tours
 
-This calendar shows all tours in all cities (Philadelphia and New York).
+This calendar shows all tours in all cities (Philadelphia, New York, and Boston).
 </div>
 
 {% include book.html city="all" %}

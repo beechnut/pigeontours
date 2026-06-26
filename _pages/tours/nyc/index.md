@@ -6,7 +6,9 @@ permalink: "/nyc"
 {% include container-start.html style=2 %}
 # New York Pigeon Tours
 
-Ah, New York — America's most pigeon-populated city. You'll never see pigeons the same way again. Manhattan tours just started, Brooklyn tours coming&nbsp;soon.
+Ah, New York — America's most pigeon-populated city. You'll never see pigeons the same way again.
+
+New York tours are on hold, but Brooklyn tours will start again soon.
 
 {% include img.html name="ny-penn-steps" %}
 
@@ -15,30 +17,20 @@ Ah, New York — America's most pigeon-populated city. You'll never see pigeons 
   <br /> - reviewer on <a href="{{ site.data.links.tripadvisor }}">TripAdvisor</a>
 </blockquote>
 
-<blockquote>
-  <em><strong>&quot;The crowds keep&nbsp;flocking&quot;</strong></em>
-  <br /> - <a href="{{ site.data.links.inquirer }}">The Philadelphia Inquirer</a>
-</blockquote>
-
 {% include container-end.html %}
 
-{% include tour_summary.html tour="manhattan" style="1" image="ny-pointing" %}
-{% include tour_summary.html tour="brooklyn" style="2" image="looking-up" %}
+{% comment %}
+{% include tour_summary.html tour="brooklyn" style="1" image="looking-up" %}
+{% include tour_summary.html tour="manhattan" style="2" image="ny-pointing" %}
+{% endcomment %}
 
+{% include container-start.html style=1 %}
+### New York tours are on hold
 
-{% include container-start.html style=1 columns=true %}
-<div markdown="1" style="width: 45%;">
-### All New York Tours
+We're reworking New York tours, and we expect to start Brooklyn tours up again soon.
 
-This calendar shows all New York tours, including:
+If you want to be notified when tours start, or if you would like to help support Pigeon Tours coming to New York, please [send us an email](mailto:hello@phillypigeontours.com).
 
-<div id="list03" class="list-component instance-3 style-1" markdown="1">
-- Manhattan Pigeon Tours
-- Brooklyn Pigeon Tours
-</div>
-</div>
-
-{% include book.html city="nyc" %}
 {% include container-end.html %}
 
 

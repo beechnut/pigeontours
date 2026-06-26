@@ -21,7 +21,9 @@ On our Manhattan Pigeon Tour, meet the pigeons of New York.
 Your guide will bring you around Midtown Manhattan, visiting established flocks and nesting sites. You'll observe pigeons nesting, dodging traffic, and defying anti-pigeon architecture.
 </div>
 
-{% include book.html tour=page.tour %}
+<div style="margin-top: 0; margin-bottom: 0; margin-left: 5%; border: 2px solid rgba(64, 64, 64, 0.761); width: 50%; padding: 10px 20px; border-radius: 20px;">
+  <p>Manhattan tours are on hold. Please check back soon.</p>
+</div>
 {% include container-end.html %}
 
 {% include container-start.html style=2 %}

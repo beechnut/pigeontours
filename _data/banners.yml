@@ -4,3 +4,11 @@
     - /philly
   message:
     Join us 4th of July weekend for Pigeons in America! <a href="/america">Take a look &rarr;</a>
+
+-
+  paths:
+    - /nyc
+    - /nyc/brooklyn
+    - /nyc/manhattan
+  message:
+    New York tours are on hold. We expect to start Brooklyn tours again soon.

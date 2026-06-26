@@ -20,7 +20,9 @@ On our Brooklyn Pigeon Tour, meet the pigeons of Prospect Park.
 Your guide will bring you to a few key locations in and around Prospect Park, visiting established flocks and nesting sites. You'll observe pigeons nesting, defying anti-pigeon spikes, and braving traffic like a true New Yorker.
 </div>
 
-{% include book.html tour=page.tour %}
+<div style="margin-top: 0; margin-bottom: 0; margin-left: 5%; border: 2px solid rgba(64, 64, 64, 0.761); width: 50%; padding: 10px 20px; border-radius: 20px;">
+  <p>Brooklyn tours are on hold, but we plan to start them again soon. Please check back soon.</p>
+</div>
 {% include container-end.html %}
 
 {% include container-start.html style=2 %}
