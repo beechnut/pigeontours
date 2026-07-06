@@ -91,6 +91,12 @@
   background-color: rgba(0, 0, 0, 0) !important;
   color: var(--pigeon-dark-bluegreen);
 }
+[data-theme=light] nav details.dropdown ul,
+:root:not([data-theme=dark]) nav details.dropdown ul {
+  position: absolute;
+  left: env(safe-area-inset-left, 0);
+  right: env(safe-area-inset-right, 0);
+}
 [data-theme=light] li.special-event,
 :root:not([data-theme=dark]) li.special-event {
   background-color: var(--pigeon-gold-highlight);
