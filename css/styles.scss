@@ -94,6 +94,12 @@
       background-color: rgba(0, 0, 0, 0) !important;
       color: var(--pigeon-dark-bluegreen);
     }
+
+    details.dropdown ul {
+      position: absolute;
+      left: env(safe-area-inset-left, 0);
+      right: env(safe-area-inset-right, 0);
+    }
   }
 
   li.special-event {
