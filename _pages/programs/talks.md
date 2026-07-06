@@ -1,6 +1,7 @@
 ---
 ---
-{% include container-start.html style=2 %}
+<div class="container">
+<section markdown="1">
 # Speaking engagements
 
 We talk about pigeons &mdash; a lot.
@@ -20,12 +21,25 @@ Co-founders and tour guides Hannah Michelle and Aspen can speak about pigeons fr
 We're open to giving keynotes, joining panel discussions, or leading educational workshops.
 
 {% include email.html text="Request a talk" %}
-{% include container-end.html %}
+</section>
 
-{% include container-start.html style=1 %}
+
+{% assign future_events = site.data.speaking | where: "future", true %}
+{% assign past_events = site.data.speaking | where: "future", nil %}
+
+<section markdown="1">
 ## Upcoming talks
 
-{% for event in site.data.speaking %}
+{% for event in future_events %}
+**{{ event.title }}**
+<br />[{{ event.venue }}]({{ event.link }})
+<br />{{ event.location }}
+<br />{{ event.date }}
+{% endfor %}
+
+## Past talks
+
+{% for event in past_events %}
 **{{ event.title }}**
 <br />[{{ event.venue }}]({{ event.link }})
 <br />{{ event.location }}
@@ -33,4 +47,5 @@ We're open to giving keynotes, joining panel discussions, or leading educational
 {% endfor %}
 
 {% include email.html text="Request a talk" %}
-{% include container-end.html %}
+</section>
+</div>

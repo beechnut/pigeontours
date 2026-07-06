@@ -1,13 +1,7 @@
 {% assign image = site.data.images[include.name] %}
-<div>
-  <div id="image01" class="image-component style-1">
-    <span class="frame">
-      <img src="{{ image.src | relative_url }}" alt="{{ image.alt }}" title="{{ image.title }}" />
-    </span>
-  </div>
-  <p class="text-component style-9">
-    {% if include.caption | default: true, allow_false: true %}
-      {{ image.caption }}
-    {% endif %} {{ image.credit }}
-  </p>
-</div>
+<figure>
+  <img src="{{ image.src | relative_url }}" alt="{{ image.alt }}" title="{{ image.title }}" class="{{ include.class }}" />
+  <figcaption>
+  {% if include.caption | default: true, allow_false: true %}{{ image.caption }}{% endif %}{{ image.credit }}
+  </figcaption>
+</figure>

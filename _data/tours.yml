@@ -21,9 +21,30 @@ italian_market: &italian_market
   city: *philly
   embed_id: "8a72b961-aca8-43ac-81de-0411004fc4bd"
   tagline: "Meet the pigeons of the historic Italian Market on South 9th St, and visit pigeon nesting sites."
-  duration: 1&#189; hours
   distance: 1 mile / 1.6 km
+  duration: 90 minutes
   neighborhood: Bella Vista
+  points:
+    start: We meet outside Get a Gato cat cafe, 638 Christian Street (7th & Christian).
+    end: The tour ends at the same location.
+  accessibility: default
+  restroom: yes
+  food: |
+    Get a Gato has baked goods, coffee/tea drinks, and water. We recommend arriving at least 15 minutes early if you plan to order something &mdash; the line can be long when we have full tours!
+  transit: |
+    From the Lombard-South station (Broad Street Line southbound), walk 20 minutes or take the 40 bus to 7th St.
+
+    From the Ellsworth-Federal station (Broad Street Line northbound), walk 20 minutes or take the 64 bus to 7th St.
+
+    From 8th St Station (Market-Frankford Line / "The L"), walk 20 minutes or take the 47 bus to Christian St.
+
+  parking:
+    locations: |
+      - 2-hour free street parking (not too difficult to find, except on event/festival weekends)
+      - \"forever parking\", not-time limited (always very difficult to find)
+      - paid parking near South Street, less than a 10-minute walk from the meetup location
+    note: |
+      Tours are 90 minutes long, giving you a roughly 15-minute window before and after the tour to move your car. Be aware, parking in this neighborhood is strictly enforced.
   learn_more_emoji: 🇮🇹
   url: /philly/italian-market
 
@@ -32,9 +53,26 @@ center_city: &center_city
   city: *philly
   embed_id: "80aacbb1-5a2f-489d-a26c-d9e9dbe1ad9e"
   tagline: "Encounter Philly’s pigeons from Independence Mall to City Hall!"
-  duration: 1&#189; hours
   distance: 1 mile / 1.6 km
+  duration: 90 minutes
   neighborhood: Center City
+  points:
+    start: We start the tour at the Independence Visitor Center at 599 Market Street.
+    end: The tour ends at City Hall, about a mile away.
+    note: "**This is a one-way tour route**, but both locations are a short distance from public transit."
+  restroom: yes
+  food: |
+    We don't have planned stops for refreshments during the tour, but there are abundant options near our start and end points.
+  transit: |
+    Take the Market-Frankford Line ("The L") to **5th&nbsp;St / Independence&nbsp;Hall**.
+
+    To get from City Hall (our end location) back to the Independence Visitor Center, take the Market-Frankford Line from **15th St / City Hall** to **5th St**.
+  parking:
+    locations: |
+      - Autopark at Independence Mall (closest)
+      - Many other paid parking garages
+    note: |
+      We do not recommend parking in 2-hour street parking, as it's unlikely you'll be able to return to your car in time after the tour ends. Street parking in this area is both challenging to find and strictly enforced.
   learn_more_emoji: 🔔
   url: /philly/center-city
 
@@ -42,9 +80,9 @@ america: &america
   name: Pigeons in America
   city: *philly
   embed_id: "670993dd-9c57-40f2-9b08-9b575ea2f6d7"
-  tagline: "Discover American history from the pigeon's perspective"
-  duration: 1&#189; hours
+  tagline: "Discover American history from the pigeon's perspective."
   distance: 1 mile / 1.6 km
+  duration: 90 minutes
   neighborhood: Bella Vista
   learn_more_emoji: 🗽
   url: /america
@@ -54,8 +92,8 @@ manhattan: &manhattan
   city: *nyc
   embed_id: "16aafa51-8b8b-4fad-8058-d831f7195142"
   tagline: "Visit the pigeons of New York City!"
-  duration: 1&#189; hours
   distance: 1 mile / 1.6 km
+  duration: 90 minutes
   neighborhood: Midtown Manhattan
   learn_more_emoji: 🗽
   url: /nyc/manhattan
@@ -65,8 +103,8 @@ brooklyn: &brooklyn
   city: *nyc
   embed_id: "e967be28-f037-4b0b-870a-5fdab51c5c2d"
   tagline: "Meet the pigeons of Prospect Park!"
-  duration: 1&#189; hours
   distance: 1.3 miles / 2 km
+  duration: 90 minutes
   neighborhood: Prospect Park
   learn_more_emoji: 🍕
   url: /nyc/brooklyn
@@ -76,9 +114,30 @@ downtown_boston: &downtown_boston
   city: *boston
   embed_id: "580a193c-a236-4422-a592-c47269aaa36a"
   tagline: "Meet the pigeons of Boston&nbsp;Common and Downtown&nbsp;Crossing!"
-  duration: 1&#189; hours
   distance: 0.75 miles / 1.25 km
+  duration: 90 minutes
   neighborhood: Boston&nbsp;Common & Downtown&nbsp;Crossing
+  points:
+    start: We meet near the Boston Irish Famine Memorial Statue, 24 School St.
+    end: The tour ends at the same location.
+  accessibility: |
+    Sidewalks in this neighborhood are relatively even, but streets may have gradual inclines. We are not aware of permanent obstacles to wheelchairs or other mobility devices along our route. Unexpected obstacles (like construction) may occur, but we'll route around them.
+  restroom: no
+  food: |
+    The area around the meeting / ending point has cafes, restaurants, and convenience stores.
+  transit: |
+    The meeting / ending point is located near multiple MBTA ("T") stations, including:
+
+    - **Red Line**: Park Street
+    - **Orange Line**: Downtown Crossing or State
+    - **Green Line**: Park Street or Government Center
+
+  parking:
+    locations: |
+      - paid parking garages.
+    note: |
+      We're not familiar with parking in this area, so we're refraining from making recommendations until we gather more information.
+
   learn_more_emoji: 🏙️
   url: /boston/downtown
 
@@ -87,8 +146,8 @@ north_end: &north_end
   city: *boston
   embed_id: "#"
   tagline: "See pigeons &mdash; and Italian&#8209;American history &mdash; in a new light!"
-  duration: 1&#189; hours
   distance: 1 miles / 1.6 km
+  duration: 90 minutes
   neighborhood: North&nbsp;End & Faneuil&nbsp;Hall
   learn_more_emoji: 🇮🇹
   url: /boston/north-end

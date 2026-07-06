@@ -1,30 +1,44 @@
 {% assign tour = site.data.tours[ include.tour ] %}
 
-{% include container-start.html style=include.style columns="true" %}
-<div markdown="1" style="margin-bottom: 0;">
-## {{ tour.name }} tour
-{% include img.html name=include.image caption=false %}
-</div>
+<div class="container-fluid tour summary">
+  <div class="container">
+    <section class="tour summary" id="{{ tour.name | slugify }}-tour">
+      <div class="grid">
+        <div>
+          <h2>{{ tour.name }} tour</h2>
+        </div>
+        <div style="display: none;">
+        </div>
+      </div>
 
-<div markdown="1" style="margin-top: 5rem;">
-{{ tour.tagline }}
+      <div class="grid">
+        <div>
+          {% include img.html name=include.image caption=false %}
+        </div>
 
-**Duration:** {{ tour.duration }}<br/>
-**Distance:** {{ tour.distance }}<br/>
-**Neighborhood:** {{ tour.neighborhood }}
+        <div>
+          <p>{{ tour.tagline }}</p>
+
+          <table>
+            <tbody>
+              <tr><td>Duration:</td><td><strong>90 minutes</strong></td></tr>
+              <tr><td>Distance:</td><td><strong>{{ tour.distance }}</strong><br/></td></tr>
+              <tr><td>Area:</td><td><strong>{{ tour.neighborhood }}</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="button-wrapper">
+          <center>
+            <a href="{{ tour.url }}" role="button" class="outline contrast">
+              {{ tour.learn_more_emoji }} Get&nbsp;tickets / Learn&nbsp;more
+            </a>
+          </center>
+        </div>
+      </div>
+
+    </section>
+  </div>
 </div>
-{% include container-end.html %}
-<div class="container-component style-{{include.style}} default full screen">
-<div class="wrapper">
-<div class="inner" data-onvisible-trigger="1" markdown="1" style="padding-top: 0;">
-<ul id="buttons14" class="buttons-component instance-5 style-2">
-<!--   <li>
-    {% include tickets.html tour=include.tour %}
-  </li> -->
-  <li>
-    <a href="{{ tour.url }}" class="n01" role="button">
-      {{ tour.learn_more_emoji }} Get tickets / Learn more
-    </a>
-  </li>
-</ul>
-{% include container-end.html %}

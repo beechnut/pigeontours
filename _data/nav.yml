@@ -1,0 +1,48 @@
+-
+  name: Home
+  href: "/"
+  children: false
+-
+  name: Tours
+  children:
+    -
+      name: 🗽 Pigeons in America
+      href: "/america"
+      class: special-event
+    -
+      name: Philly
+      href: "/philly"
+    -
+      name: New York
+      href: "/nyc"
+    -
+      name: Boston
+      href: "/boston"
+    # -
+    #   name: Global
+    #   href: "/global"
+-
+  name: Programs
+  children:
+    -
+      name: Private tours
+      href: "/programs/private"
+    -
+      name: Youth programs
+      href: "/programs/youth"
+    -
+      name: Talks
+      href: "/programs/talks"
+-
+  name: Gift cards
+  href: "/gift"
+  children: false
+-
+  name: About us
+  href: "/about"
+  children: false
+-
+  name: Donate
+  href: "/donate"
+  children: false
+  button: true

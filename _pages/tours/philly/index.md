@@ -3,57 +3,45 @@ title: Philly tours
 permalink: "/philly"
 ---
 
-{% include container-start.html style=2 %}
-# Philly Pigeon Tours
+<div class="container">
+  <section>
+    <h1>Philly Pigeon Tours</h1>
 
-Ah, Philadelphia — the birthplace of Pigeon Tours. Join us for tours in the Italian Market and Center City.
+    <p>Ah, Philadelphia — the birthplace of Pigeon Tours. Join us for tours in the Italian Market and Center City.</p>
 
-<blockquote>
-  <em><strong>"South Philly's hottest new excursion"</strong></em>
-  <br />- <a href="{{ site.data.links.inquirer }}">The Philadelphia Inquirer</a>
-</blockquote>
-{% include container-end.html %}
+    <blockquote>
+      <em><strong>"South Philly's hottest new excursion"</strong></em>
+      <br />- <a href="{{ site.data.links.inquirer }}">The Philadelphia Inquirer</a>
+    </blockquote>
+  </section>
+</div>
 
-{% include tour_summary.html tour="america" style="2" image="primrose-glam-landscape" %}
 {% include tour_summary.html tour="italian_market" style="1" image="market" %}
 {% include tour_summary.html tour="center_city" style="2" image="looking-up" %}
 
-{% include container-start.html style=1 columns=true %}
-<div markdown="1" style="width: 45%;">
+<section>
+<div class="grid">
+<div markdown="1">
 ### All Philly Tours
 
 This calendar shows all Philly tours, including:
 
-Italian Market Pigeon Tours
-
-Center City Pigeon Tours
-
-One Year Anniversary Pigeon Tours (June 27 &amp; 28, Italian Market route)
-
-<a href="/america">Pigeons in America tours</a><br/>(July 3 &ndash; 6, Italian Market route)
+- Italian Market Pigeon Tours
+- Center City Pigeon Tours
 </div>
-
 {% include book.html city="philly" %}
-{% include container-end.html %}
+</div>
+</section>
 
-
-{% include container-start.html style=2 %}
+<section markdown="1">
 ### Looking for a private tour?
 
 We offer private pigeon tours for just your group, team, or company.
 
 Only available in Philly!
 
-{% comment %}
-{% include button.html text="🐦 Private tours" url="/programs/private" %}
-{% endcomment %}
+<a href="/programs/private" role="button">
+  🐦 Private tours
+</a>
 
-<ul id="buttons14" class="buttons-component instance-14 style-2">
-  <li>
-    <a href="/programs/private" class="n01" role="button">
-      🐦 Private tours
-    </a>
-  </li>
-</ul>
-
-{% include container-end.html %}
+</section>

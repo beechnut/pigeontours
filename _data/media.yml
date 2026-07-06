@@ -1,5 +1,11 @@
 articles:
   -
+    publication: Axios
+    link: https://www.axios.com/local/philadelphia/2026/07/01/philly-pigeon-tours-couple-pet-bird
+    title: How Philly's "pigeon people" turned a pet bird into a walking tour
+    byline: by Isaac Avilucea
+    date: Jul 1, 2026
+  -
     publication: Autostraddle
     link: https://www.autostraddle.com/the-queerness-of-pigeons/
     title: "On Our Queer Urban Neighbor: The Pigeon"
@@ -33,9 +39,3 @@ articles:
     title: Philly Pigeon Tours offer a bird’s-eye glimpse of South Philly
     byline: by Mike Newall
     date: Oct 24, 2025
-
-pending:
-  -
-    publication: Pigeon documentary
-    caption: We provided voiceover for a short pigeon documentary film based on Rosemary Mosco&#39;s <em>A Pocket Guide to Pigeon Watching</em>
-    byline: Film by <a href="https://www.switchboardmagazine.com/shorts-archive/david-again">C Minus Productions</a>

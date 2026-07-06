@@ -3,14 +3,8 @@
 {% for banner in site.data.banners %}
   {% for path in banner.paths %}
     {% if path == nil or path == "*" or current_path == path %}
-      <div id="container28" class="container-component instance-28 style-4 default full screen">
-        <div class="wrapper">
-          <div class="inner" data-onvisible-trigger="1">
-            <p id="text60" class="text-component instance-60 style-7">
-              {{ banner.message }}
-            </p>
-          </div>
-        </div>
+      <div class="container-fluid banner">
+        <p class="flash">{{ banner.message }}</p>
       </div>
     {% endif %}
   {% endfor %}

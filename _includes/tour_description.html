@@ -1,0 +1,81 @@
+<div class="container tour description">
+<section markdown="1">
+{% unless page.skip_return_link %}
+[&larr; All {{ tour.city.name }} tours]({{ tour.city.url }}#{{ tour.name | slugify }}-tour)
+{% endunless %}
+
+# {{ tour.name }} tour
+
+{% include img.html name=page.image_top %}
+</section>
+
+<section class="summary" markdown="1">
+  {{ summary }}
+</section>
+
+<section>
+{% include book.html tour=page.tour %}
+</section>
+
+<section markdown="1">
+
+## What you'll do
+
+{% include img.html name=page.image_btm %}
+
+{{ what_youll_do }}
+</section>
+
+<section markdown="1">
+## What to expect
+
+### Duration
+This tour lasts **{{ tour.duration }}**.
+
+Out of respect for your time, we aim to start and end the tour right on time.
+
+### Distance
+{{ tour.distance }}
+
+### Meetup location
+{{ tour.points.start }} {{ tour.points.end }}
+
+{% if tour.points.note %}{{ tour.points.note }}{% endif %}
+
+### Accessibility
+
+{% if tour.accessibility == "default" %}
+  Sidewalks in this neighborhood are relatively flat. A few curb cuts are moderately steep. We are not aware of permanent obstacles to wheelchairs or other mobility devices along our route. Unexpected obstacles (like construction) may occur, but we'll route around them.
+{% else %}
+  {{ tour.accessibility }}
+{% endif %}
+
+If you have specific mobility needs or questions, please get in touch, and we'll work with you to meet your&nbsp;needs.
+
+### Restrooms
+
+{% if tour.restroom %}
+There is a restroom at the start/end location.
+{% else %}
+No restroom is available at the start/end location, though there may be some in the nearby area.
+{% endif %}
+
+### Food and water
+
+{{ tour.food }}
+
+### Public transportation
+
+{{ tour.transit }}
+
+### Parking
+
+The meetup location has the following parking nearby:
+
+{{ tour.parking.locations }}
+
+{{ tour.parking.note }}
+
+{% include what_to_bring.md %}
+</section>
+</div>

@@ -1,8 +1,8 @@
 ---
 title: Youth programs
 ---
-
-{% include container-start.html style=2 %}
+<div class="container">
+<section markdown="1">
 # Youth Tours &&nbsp;Programs
 
 We offer programs specifically for kids and teens ages 6&nbsp;&ndash;&nbsp;18. Youth tours & programs are interactive and tailored to the age and interests of the group.
@@ -25,10 +25,10 @@ Depending on the interests the the group, we can also include:
 </div>
 
 {% include email.html text="Request a youth tour" %}
-{% include container-end.html style=1 %}
+</section>
 
 
-{% include container-start.html style=1 %}
+<section markdown="1">
 ## On-site youth programs
 
 Bring Philly Pigeon Tours to your school, camp, or event!
@@ -52,9 +52,9 @@ In this program, we use restorative circle practices to explore our feelings and
 In this program, youth learn about some of the incredible innovations humans have developed by mimicking other living beings. Youth will also have a chance to brainstorm ideas for new innovations that pull ideas from other creatures.
 
 {% include email.html text="Inquire about youth programs" %}
-{% include container-end.html %}
+</section>
 
-{% include container-start.html style=2 %}
+<section markdown="1">
 ## Pricing
 
 ### Standard pricing
@@ -66,11 +66,17 @@ For 90-minute programs, $25 per child, with a minimum total of $350.
 We understand that our pricing may be out of reach for homeschool groups, non-profits, and schools with a smaller budget. In these cases, we use a gift economy model.
 
 If you know that our standard pricing is out of reach, please email us with an offer that works for your budget and also supports our program. While considering your offer, please keep in mind that this is one of our main sources of income.
-{% include container-end.html %}
+</section>
 
 
-{% include container-start.html style=1 %}
+<section markdown="1">
 ## Testimonials
+
+**Brian Jordan, 1st/2nd Grade Teacher, The Philadelphia School**:
+
+"Hannah Michelle engaged our our first and second grade students in such thoughtful, fun, informative ways that fit perfectly for child development considerations of that age group. She was so patient, and a true expert.
+
+"Hannah Michelle and Aspen were a terrific team! Thank you so much!"
 
 **Alexis Sellers, Bucks Learning Collaborative**:
 
@@ -97,4 +103,5 @@ If you know that our standard pricing is out of reach, please email us with an o
 "Thanks for adding ways for them to feel empowered in their participation (the stick with a pigeon on it, pigeon dances/calls, binoculars, compass, feathers, etc.). HM and Aspen were patient, sweet and really fun to be around -- it's the best to collaborate with adults who love being around kids!"
 
 {% include email.html text="Get in touch" %}
-{% include container-end.html %}
+</section>
+</div>
