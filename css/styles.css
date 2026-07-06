@@ -1,0 +1,297 @@
+@font-face {
+  font-family: "Lexend Deca";
+  src: url("/assets/fonts/lexend-deca/LexendDeca-VariableFont_wght.ttf");
+}
+:root {
+  --pigeon-sky-blue: #C0F0F7;
+  --pigeon-dark-green: #1C3E42;
+  --pigeon-light-orange: #FFFBF7;
+  --pigeon-gold-highlight: #F8BA4F;
+  --pigeon-dark-bluegreen: rgb(28, 62, 66);
+  --pigeon-img-border-radius: 32px;
+  --pico-font-family: "Lexend Deca";
+  --pico-font-weight: 400;
+  --pico-font-size: 100%;
+  --pico-color: rgba(64, 64, 64, 0.76);
+}
+
+@media (max-width: 575px) {
+  :root,
+  :host {
+    --pico-font-size: 106.25%;
+    --pigeon-hero-width: 90%;
+  }
+}
+@media (min-width: 576px) {
+  :root,
+  :host {
+    --pico-font-size: 106.25%;
+    --pigeon-hero-width: 90%;
+  }
+}
+@media (min-width: 768px) {
+  :root,
+  :host {
+    --pico-font-size: 112.5%;
+    --pigeon-hero-width: 70%;
+    --pigeon-max-width: 700px;
+  }
+}
+@media (min-width: 1024px) {
+  :root,
+  :host {
+    --pico-font-size: 118.75%;
+    --pigeon-hero-width: 60%;
+  }
+}
+@media (min-width: 1280px) {
+  :root,
+  :host {
+    --pico-font-size: 125%;
+    --pigeon-hero-width: 50%;
+  }
+}
+@media (min-width: 1536px) {
+  :root,
+  :host {
+    --pico-font-size: 131.25%;
+    --pigeon-hero-width: 40%;
+  }
+}
+/* Light color scheme (Default) */
+/* Can be forced with data-theme="light" */
+[data-theme=light] .banner,
+:root:not([data-theme=dark]) .banner {
+  background-color: var(--pigeon-dark-green);
+}
+[data-theme=light] .banner p,
+:root:not([data-theme=dark]) .banner p {
+  color: white;
+}
+[data-theme=light] .banner p a,
+:root:not([data-theme=dark]) .banner p a {
+  color: white;
+  text-decoration-color: white;
+}
+[data-theme=light] .nav-wrapper,
+:root:not([data-theme=dark]) .nav-wrapper {
+  background-color: var(--pigeon-sky-blue);
+}
+[data-theme=light] nav a,
+:root:not([data-theme=dark]) nav a {
+  color: var(--pigeon-dark-bluegreen);
+}
+[data-theme=light] nav button, [data-theme=light] nav a[role=button],
+:root:not([data-theme=dark]) nav button,
+:root:not([data-theme=dark]) nav a[role=button] {
+  color: white;
+}
+[data-theme=light] nav details.dropdown > summary,
+:root:not([data-theme=dark]) nav details.dropdown > summary {
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: var(--pigeon-dark-bluegreen);
+}
+[data-theme=light] li.special-event,
+:root:not([data-theme=dark]) li.special-event {
+  background-color: var(--pigeon-gold-highlight);
+}
+[data-theme=light] .hero,
+:root:not([data-theme=dark]) .hero {
+  background-color: var(--pigeon-sky-blue);
+}
+
+/* Dark color scheme (Auto) */
+/* Automatically enabled if user has Dark mode enabled */
+/* Dark color scheme (Forced) */
+/* Enabled if forced with data-theme="dark" */
+img {
+  border-radius: var(--pigeon-img-border-radius);
+}
+
+button, a[role=button] {
+  border-radius: 32px;
+  border-width: 3px;
+  padding: 1rem 1.75rem;
+  --pico-font-weight: 700;
+}
+
+.container {
+  max-width: var(--pigeon-max-width);
+}
+
+.container-fluid {
+  --pico-spacing: 0;
+}
+
+main.container-fluid {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.banner {
+  text-align: center;
+  padding: 1.75rem 0;
+}
+
+.banner p {
+  margin-bottom: 0;
+  padding-left: var(--pico-nav-element-spacing-horizontal);
+  padding-right: var(--pico-nav-element-spacing-horizontal);
+}
+
+nav {
+  align-items: center;
+  justify-content: center;
+  --pico-font-weight: 300;
+  --pico-font-size: 1rem;
+}
+nav > ul {
+  flex-wrap: wrap;
+  padding-top: var(--pico-nav-element-spacing-vertical);
+  padding-bottom: var(--pico-nav-element-spacing-vertical);
+  padding-left: var(--pico-nav-element-spacing-horizontal);
+  padding-right: var(--pico-nav-element-spacing-horizontal);
+}
+nav > ul > li {
+  height: 3.5rem;
+  padding-left: calc(var(--pico-nav-element-spacing-horizontal) * 1.25);
+  padding-right: calc(var(--pico-nav-element-spacing-horizontal) * 1.25);
+}
+nav > ul > li:has(> details) {
+  padding-top: calc(var(--pico-nav-element-spacing-vertical) * 0.6);
+  padding-bottom: calc(var(--pico-nav-element-spacing-vertical) * 0.6);
+}
+nav details.dropdown > summary {
+  border: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+nav details:open {
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.hero img {
+  width: var(--pigeon-hero-width);
+  margin: 0 auto;
+  position: relative;
+  display: block;
+}
+
+.top {
+  padding-top: calc(var(--pico-block-spacing-vertical) * 3) !important;
+}
+
+.bottom {
+  padding-bottom: calc(var(--pico-block-spacing-vertical) * 3) !important;
+}
+
+section, .grid > div {
+  padding: var(--pico-block-spacing-horizontal);
+}
+
+.explainer {
+  background-color: var(--pigeon-light-orange);
+}
+
+.book {
+  width: 99%;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  border: 2px solid var(--pico-color);
+  border-radius: 20px;
+}
+.book p {
+  margin-left: var(--pico-block-spacing-horizontal) !important;
+  margin-right: var(--pico-block-spacing-horizontal) !important;
+}
+.book h3 {
+  margin-top: var(--pico-typography-spacing-vertical);
+  margin-bottom: calc(var(--pico-typography-spacing-vertical) * 0.5);
+}
+
+.container-fluid.tour.summary:nth-of-type(even) {
+  background-color: var(--pigeon-light-orange);
+}
+.container-fluid.tour.summary:nth-of-type(even) td {
+  background-color: var(--pigeon-light-orange);
+}
+
+.tour.summary img {
+  border-radius: var(--pigeon-img-border-radius);
+}
+.tour.summary button, .tour.summary a[role=button] {
+  margin-top: 0;
+  margin-bottom: var(--pico-block-spacing-vertical);
+  background-color: white;
+}
+.tour.summary .button-wrapper {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.tour.summary h2 {
+  margin-bottom: 0;
+}
+.tour.summary {
+  --pico-grid-row-gap: 0;
+}
+
+.tour.description h1 {
+  margin-top: calc(var(--pico-typography-spacing-vertical) * 3);
+}
+.tour.description img {
+  border-radius: var(--pigeon-img-border-radius);
+}
+.tour.description ul {
+  margin-top: var(--pico-block-spacing-vertical);
+}
+
+blockquote {
+  padding-top: var(--pico-block-spacing-vertical);
+  border-left: none;
+  border-inline-start: none;
+  font-size: 1.3rem;
+}
+blockquote a {
+  color: rgb(94, 94, 94);
+  text-decoration-color: rgb(94, 94, 94);
+}
+
+p {
+  color: rgb(94, 94, 94);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.025rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+td {
+  border: none;
+  padding: calc(var(--pico-typography-spacing-vertical) * 0.1);
+}
+
+figcaption {
+  font-size-adjust: 0.4;
+}
+
+footer {
+  background-color: rgb(232, 232, 232);
+  color: rgba(94, 94, 94, 0.76);
+  padding-top: 0;
+  margin-top: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
