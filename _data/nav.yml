@@ -6,10 +6,6 @@
   name: Tours
   children:
     -
-      name: 🗽 Pigeons in America
-      href: "/america"
-      class: special-event
-    -
       name: Philly
       href: "/philly"
     -
@@ -18,9 +14,6 @@
     -
       name: Boston
       href: "/boston"
-    # -
-    #   name: Global
-    #   href: "/global"
 -
   name: Programs
   children:
