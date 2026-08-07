@@ -127,6 +127,9 @@
 
 img { border-radius: var(--pigeon-img-border-radius); }
 
+.hero > img { border-radius: var(--pico-border-radius); }
+
+
 button, a[role='button'] {
   border-radius: 32px;
   border-width: 3px;
