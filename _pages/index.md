@@ -11,48 +11,47 @@ layout: home
     </center>
   </section>
   <section>
-    <center>
-      <p>Join us for pigeon-focused urban birding tours in Philly and New York!</p>
-      <p>Great for all ages, and perfect for locals and tourists alike.</p>
-    </center>
+      <p>In Philly, we love our "trash animals".</p>
+      <p>Visit iconic Philly destinations, and make a new relationship with your bird neighbors along the way.</p>
+      <p>You'll get a unique look at Philly, whether you're a tourist or a local.</p>
   </section>
 </div>
 
 <div class="container-fluid explainer">
-<div class="container">
-<div class="grid">
+<div class="container" markdown="1">
+<br />
+## What is a pigeon&nbsp;tour?
 
-<div markdown="1" class="top">
-## What is a Pigeon&nbsp;Tour?
+Pigeon tours are city walking tours, featuring pigeons!
 
-A Pigeon Tour is a walking tour that'll leave you thinking differently about your closest bird neighbors&nbsp;— pigeons.
+Pigeons live near us because we domesticated them, and then abandoned them. On this tour, you'll learn the wild story of why and how we started hating them.
 
-On the tour, you'll observe pigeons and learn all about their behaviors, biology, and&nbsp;history.
+If you're looking for something to do in Philly &mdash; especially something a little unusual or unique &mdash; you'll be right at home on a pigeon tour.
 
-You'll learn the ups and downs of the relationship between humans and pigeons — and you might even see a baby&nbsp;pigeon!
-
-**Tourists** will experience a new city from a unique perspective.
-
-**Locals** will get to see familiar neighborhoods in a new&nbsp;light.
-</div>
-<div class="top">
-{% include img.html name="wire" %}
-</div>
-</div>
+You don't have to already love pigeons to come on this tour! It's ok if you start out disliking pigeons, but be warned &mdash; you might leave with different feelings.
+<br />
+<br />
+### video or big image here
+<br />
+<br />
 </div>
 </div>
 
 <div class="container top">
 <div class="grid">
 <div markdown="1">
-## On a pigeon tour, you'll learn...
-- birdwatching technique, including how to use binoculars like a&nbsp;pro
-- how people and pigeons have related throughout history (it's mostly been pretty&nbsp;positive!)
-- how our relationship with pigeons has become so negative in recent years, and what our future relationship might look&nbsp;like
-- why you never see baby pigeons — they're all around, but hard to&nbsp;identify!
-- what different pigeon behaviors&nbsp;mean
-- pigeon biology, genetics, breeds, and&nbsp;colors
-- how we're connected to the wider&nbsp;ecosystem
+<!-- photos for each chunk -->
+## On a typical pigeon tour...
+
+- We visit an established flock, so you can see a wide variety of behaviors.
+
+- We explain pigeons' surprising and mysterious behaviors, so you can understand what they're doing.
+
+- We visit a nesting site where you can finally see baby pigeons! (They're real!)
+
+- We learn about how people and pigeons have related throughout history. (It was pretty positive for about 5,000 years.)
+
+- We explore how people around the world relate to pigeons differently.
 </div>
 {% include book.html city="all" %}
 </div>
@@ -61,8 +60,6 @@ You'll learn the ups and downs of the relationship between humans and pigeons �
 ## Contact us
 
 If you have any questions or need more information, please feel free to get in touch!
-
-Also, we never want cost to be a barrier, so if you'd like a free tour, please email us to request that.
 
 <center>
 {% include email.html text="Get in touch" %}
