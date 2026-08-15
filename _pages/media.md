@@ -4,7 +4,7 @@ title: In the media
 
 <div class="container">
   <section markdown="1">
-## In the media
+# In the media
 
 {% for article in site.data.media.articles %}
   {% include article.md article=article %}

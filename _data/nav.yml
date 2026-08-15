@@ -32,8 +32,13 @@
   children: false
 -
   name: About us
-  href: "/about"
-  children: false
+  children:
+    -
+      name: About Philly Pigeon Tours
+      href: "/about"
+    -
+      name: In the media
+      href: "/media"
 -
   name: Donate
   href: "/donate"
