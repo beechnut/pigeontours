@@ -25,6 +25,10 @@ looking-up:
   src: /assets/images/looking-up.jpg
   caption: Watching pigeons with binoculars.
   credit: Photo by Holden Blanco.
+city-hall:
+  src: /assets/images/city-hall.jpg
+dilworth:
+  src: /assets/images/dilworth.jpg
 market:
   src: /assets/images/market.jpg
 statue:
