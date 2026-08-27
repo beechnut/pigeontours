@@ -6,18 +6,13 @@ permalink: "/philly"
 <div class="container">
   <section>
     <h1>Philly Pigeon Tours</h1>
-
-    <p>Ah, Philadelphia — the birthplace of Pigeon Tours. Join us for tours in the Italian Market and Center City.</p>
-
-    <blockquote>
-      <em><strong>"South Philly's hottest new excursion"</strong></em>
-      <br />- <a href="{{ site.data.links.inquirer }}">The Philadelphia Inquirer</a>
-    </blockquote>
+    <!-- <p>The original pigeon tour!</p>
+    <p>We've been called <strong>"South Philly's hottest new excursion"</strong> by <a href="{{ site.data.links.inquirer }}">the Philadelphia Inquirer</a></p> -->
   </section>
 </div>
 
-{% include tour_summary.html tour="italian_market" style="1" image="market" %}
-{% include tour_summary.html tour="center_city" style="2" image="looking-up" %}
+{% include tour_summary.html tour="italian_market" image="market" %}
+{% include tour_summary.html tour="center_city" image="city-hall" %}
 
 <section>
 <div class="grid">

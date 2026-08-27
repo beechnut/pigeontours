@@ -6,20 +6,17 @@
   name: Tours
   children:
     -
-      name: Philly
-      href: "/philly"
+      name: Italian Market
+      href: "/philly/italian-market"
     -
-      name: New York
-      href: "/nyc"
-    -
-      name: Boston
-      href: "/boston"
--
-  name: Programs
-  children:
+      name: Center City
+      href: "/philly/center-city"
     -
       name: Private tours
       href: "/programs/private"
+-
+  name: Programs
+  children:
     -
       name: Youth programs
       href: "/programs/youth"
