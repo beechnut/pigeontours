@@ -11,12 +11,12 @@
     -
       name: Center City
       href: "/philly/center-city"
--
-  name: Programs
-  children:
     -
       name: Private tours
       href: "/programs/private"
+-
+  name: Programs
+  children:
     -
       name: Youth programs
       href: "/programs/youth"
