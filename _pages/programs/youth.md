@@ -5,28 +5,40 @@ title: Youth programs
 <section markdown="1">
 # Youth Tours &&nbsp;Programs
 
-We offer programs specifically for kids and teens ages 6&nbsp;&ndash;&nbsp;18. Youth tours & programs are interactive and tailored to the age and interests of the group.
+Pigeons can be a fun and attention-grabbing way to learn about a variety of topics, including science, history, and culture.
 
-For college / university courses, [email us](mailto:hello@phillypigeontours.com) to schedule a private tour, which we can tailor to the curriculum / topics of interest.
+We offer programs tailored for kids and teens ages 6&nbsp;&ndash;&nbsp;18. Our youth programs are highly interactive, and tailored to the age and interests of the group.
+
+For college-level courses, [email us](mailto:hello@phillypigeontours.com) to schedule a private tour or a guest lecture, which we can tailor to the curriculum.
+
+## What we can cover
+
+Our co-founders and guides have backgrounds in natural sciences, human geography, birding, mindfulness, restorative justice, and more!
+
+We love using pigeons as a window into learning about a broad array of topics.
+
+Depending on the interests the the group, we can include the following in any youth tour or program:
+
+<div class="list-component style-1" markdown="1">
+- **Architecture & design**: how we can relate to pigeons differently through built&nbsp;form
+- **Arts**: envisioning a different&nbsp;future
+- **Culture**: what pigeons can teach us about stereotypes, empathy, and&nbsp;misinformation
+- **Ecology**: ecological literacy, urban ecology,&nbsp;biomimicry
+- **Geography**: urban geography, natural&nbsp;geography
+- **History**: how people have related to pigeons throughout&nbsp;history
+- **Science**: animal behavior, adaptations, populations, scientific inquiry, the scientific&nbsp;method
+</div>
 
 ## Youth pigeon tours
 
-Our 90-minute Pigeon Tours are great for kids and teens ages 8&nbsp;&ndash;&nbsp;18. These tours typically take place at our Italian Market route in Bella Vista. If you know of pigeon flocks closer to you, we’re happy to join you there for the tour.
+Our 90-minute Pigeon Tours are great for kids and teens ages 8&nbsp;&ndash;&nbsp;18.
+
+These tours typically take place along our Italian Market route in Bella Vista. If you know of pigeon flocks closer to you, we’re happy to join you there for the tour instead.
 
 Youth tours always include observations of pigeon behaviors and and discussions of pigeon adaptations and ecology.
 
-Depending on the interests the the group, we can also include:
-
-<div class="list-component style-1" markdown="1">
-- Ecological literacy, urban ecology, and biomimicry
-- Urban and natural geography
-- Pigeon-human relationships throughout history, and what these teach us about stereotypes, misinformation, and empathy
-- Building a brighter future
-</div>
-
 {% include email.html text="Request a youth tour" %}
 </section>
-
 
 <section markdown="1">
 ## On-site youth programs
@@ -34,8 +46,6 @@ Depending on the interests the the group, we can also include:
 Bring Philly Pigeon Tours to your school, camp, or event!
 
 Each program is typically 90 minutes, but can be adapted to shorter lengths (e.g. one class period). We tailor our programs to any age between 6&nbsp;&ndash;&nbsp;18.
-
-Our co-founders and guides have backgrounds in natural sciences, human geography, birding, mindfulness, restorative justice, and more, and we love using pigeons as a window into learning about a broad array of topics.
 
 We offer the following on-site programs.
 
@@ -59,7 +69,7 @@ In this program, youth learn about some of the incredible innovations humans hav
 
 ### Standard pricing
 
-For 90-minute programs, $25 per child, with a minimum total of $350.
+A standard 90-minute programs is $30 per child, with a minimum total of $350.
 
 ### Gift economy pricing
 
@@ -72,12 +82,14 @@ If you know that our standard pricing is out of reach, please email us with an o
 <section markdown="1">
 ## Testimonials
 
+<br/>
 **Brian Jordan, 1st/2nd Grade Teacher, The Philadelphia School**:
 
 "Hannah Michelle engaged our our first and second grade students in such thoughtful, fun, informative ways that fit perfectly for child development considerations of that age group. She was so patient, and a true expert.
 
 "Hannah Michelle and Aspen were a terrific team! Thank you so much!"
 
+<br/>
 **Alexis Sellers, Bucks Learning Collaborative**:
 
 "Bucks Learning Cooperative had an incredible time on the Philly Pigeon Tour! The teenagers were engaged throughout and the area we explored was super pleasant and enjoyable to walk through."
@@ -86,7 +98,7 @@ If you know that our standard pricing is out of reach, please email us with an o
 
 "This was a unique and memoriable experience and we highly recommend. You walk, you talk and you pigeon dance! You can't beat it!"
 
-
+<br/>
 **Marianne Maloy, 3rd Grade Science Teacher, St. Peter's School**:
 
 "The students learned about adaptations through the tour. We were able to reference many of the points from the tour in our science lessons, including comparing the pigeon's adaptations to other animals."
@@ -95,7 +107,7 @@ If you know that our standard pricing is out of reach, please email us with an o
 
 "They loved seeing the pigeons up close and even got to see a nest with an egg!"
 
-
+<br/>
 **Anna D'Isidoro, Wild Seeds Facilitator, The Dandelion Project**:
 
 "I loved so much about how [HM and Aspen] approached a tour for kids! It was interactive, fun, silly, and heartwarming. The kids came back and were excited about what they had just learned and were emphatic about how much they were glad they decided to go. The content was a great blend of history, placefulness, and biology."

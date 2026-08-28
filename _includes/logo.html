@@ -1,0 +1,2 @@
+{% assign src = include.name | prepend: "/assets/images/logos/" | append: ".png" %}
+<img src="{{ src | relative_url }}" alt="{{ image.alt }}" title="{{ image.title }}" class="{{ include.class }}" />

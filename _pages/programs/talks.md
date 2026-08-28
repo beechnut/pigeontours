@@ -18,7 +18,7 @@ Co-founders and tour guides Hannah Michelle and Aspen can speak about pigeons fr
 - science&nbsp;communication
 </div>
 
-We're open to giving keynotes, joining panel discussions, or leading educational workshops.
+We're open to giving keynotes, joining panel discussions, or leading educational workshops. We also offer [youth programs](/programs/youth) for schools and colleges.
 
 {% include email.html text="Request a talk" %}
 </section>

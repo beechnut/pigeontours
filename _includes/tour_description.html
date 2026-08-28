@@ -32,9 +32,9 @@
 ### Duration
 This tour lasts **{{ tour.duration }}**.
 
-Out of respect for your time, we aim to start the tour right on time.
+Out of respect for your time, we aim to start the tour right on&nbsp;time.
 
-Most tours end around 90 minutes, but sometimes run a little longer based on the interests of the group. We recommend planning for 2 hours.
+Most tours end around 90 minutes, but sometimes run a little longer based on the interests of the group. We recommend planning for 2&nbsp;hours.
 
 ### Distance
 {{ tour.distance }}
@@ -47,19 +47,20 @@ Most tours end around 90 minutes, but sometimes run a little longer based on the
 ### Accessibility
 
 {% if tour.accessibility == "default" %}
-  Sidewalks in this neighborhood are relatively flat. A few curb cuts are moderately steep. We are not aware of permanent obstacles to wheelchairs or other mobility devices along our route. Unexpected obstacles (like construction) may occur, but we'll route around them.
+  Sidewalks in this neighborhood are relatively flat. A few curb cuts are moderately steep. We are not aware of permanent obstacles to wheelchairs or other mobility devices along our route. Unexpected obstacles (like construction) may occur, but we'll route around&nbsp;them.
 {% else %}
   {{ tour.accessibility }}
 {% endif %}
 
-If you have specific mobility needs or questions, please get in touch, and we'll work with you to meet your&nbsp;needs.
+If you have specific mobility needs or questions, [please get in touch](mailto:hello@phillypigeontours.com), and we'll work with you to meet your&nbsp;needs.
 
 ### Restrooms
 
 {% if tour.restroom %}
-There is a restroom at the start/end location.
+There is a restroom at the start/end&nbsp;location.
+{% if tour.restroom_note %}{{ tour.restroom_note }}{% endif %}
 {% else %}
-No restroom is available at the start/end location, though there may be some in the nearby area.
+No restroom is available at the start/end location, though there may be some in the nearby&nbsp;area.
 {% endif %}
 
 ### Food and water
@@ -72,7 +73,7 @@ No restroom is available at the start/end location, though there may be some in 
 
 ### Parking
 
-The meetup location has the following parking nearby:
+The meetup location has the following parking&nbsp;nearby:
 
 {{ tour.parking.locations }}
 

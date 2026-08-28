@@ -8,7 +8,7 @@ image_btm: looking-up
 {% assign tour = site.data.tours[page.tour] %}
 
 {% capture summary %}
-On our Italian Market Pigeon Tour, meet the pigeons of the South Philly and the historic Italian Market on S 9th St.
+On our Italian Market Pigeon Tour, meet the pigeons of South Philly and the historic Italian Market on S 9th St.
 
 Your guide will bring you around the neighborhood, visiting nearby flocks and nesting sites. You'll observe pigeons nesting above the market's unique shops, defying anti-pigeon spikes and netting, and boldly strolling through&nbsp;traffic.
 {% endcapture %}

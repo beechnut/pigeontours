@@ -20,7 +20,7 @@ italian_market: &italian_market
   name: Italian Market
   city: *philly
   embed_id: "8a72b961-aca8-43ac-81de-0411004fc4bd"
-  tagline: "The original pigeon tour! Visit the Italian Market on S 9th St."
+  tagline: "The original pigeon tour! Visit South Philly, featuring the 9th St Italian Market."
   distance: 1 mile / 1.6 km
   duration: 90 mins - 2 hrs
   neighborhood: Bella Vista
@@ -52,7 +52,7 @@ center_city: &center_city
   name: Center City
   city: *philly
   embed_id: "80aacbb1-5a2f-489d-a26c-d9e9dbe1ad9e"
-  tagline: "Walk around City Hall and meet the pigeons of Center City!"
+  tagline: "Meet the pigeons of City&nbsp;Hall and Reading Terminal Market!"
   distance: 1 mile / 1.6 km
   duration: 90 mins - 2 hrs
   neighborhood: Center City
@@ -60,8 +60,10 @@ center_city: &center_city
     start: We start the tour at Philadelphia City Hall.
     end: The tour ends in the same location.
   restroom: yes
+  restroom_note: A public toilet ("Philly Phlush") is available at 15th & Arch.
   food: |
-    We don't have planned stops for refreshments during the tour, but there are abundant options near City Hall.
+    We recommend bringing water with you. There are food
+    establishments near City Hall you can visit before or after the tour.
   transit: |
     On the Market-Frankford Line ("The L"), get off at **15th&nbsp;St / City&nbsp;Hall&nbsp;Station**.
 

@@ -37,3 +37,5 @@ statue:
 brick-ledge:
   src: https://images.unsplash.com/photo-1691200245702-fcb25b6ef573?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   credit: Photo by <a href="https://unsplash.com/@nardly?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Bernard</a> on <a href="https://unsplash.com/photos/a-flock-of-pigeons-standing-on-a-window-sill-TbwZM70hm5A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+logo-bar:
+  src: /assets/images/logos/bar.png

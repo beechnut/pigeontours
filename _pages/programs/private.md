@@ -11,7 +11,7 @@ People have scheduled private tours to:
 
 - celebrate a birthday or bachelorette party
 - host a company retreat
-- go on a outdoor/birding club outing
+- go on an outdoor/birding club outing
 - supplement a college / university course
 
 Private tours are currently only available in Philadelphia.
@@ -24,9 +24,23 @@ Private tours are currently only available in Philadelphia.
 
 ### Standard pricing
 
-Our standard private tour pricing is $30 for ages 13+, $10 for kids aged 4&nbsp;–&nbsp;12, with a minimum based on the day of the week.
+<br/>
+Our private tour pricing follows our standard ticket prices.
 
-Weekdays (Monday through Friday): $150 minimum<br /> Weekends (Saturday and Sunday): $360 minimum
+<table>
+  <thead><th>Ticket type</th><th>Ages</th><th>Price per person</th></thead>
+  <tr><td>Admit one</td><td>Ages 13+</td><td>$30</td></tr>
+  <tr><td>Kids</td><td>Ages 4-12</td><td>$10</td></tr>
+</table>
+
+<br/>
+Private tours have a minimum price per tour.
+
+<table>
+  <thead><th>Day of week</th><th>Minimum&nbsp;price<br/>per&nbsp;tour</th><th>Equivalent to<br/># people</th></thead>
+  <tr><td>Monday - Friday</td><td>$150 minimum</td><td>5</td></tr>
+  <tr><td>Saturday & Sunday</td><td>$360 minimum</td><td>12</td></tr>
+</table>
 
 ### Gift economy pricing
 

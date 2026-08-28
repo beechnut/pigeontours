@@ -14,6 +14,9 @@
     -
       name: Private tours
       href: "/programs/private"
+    # -
+    #   name: Bring us to your city
+    #   href: "/your-city"
 -
   name: Programs
   children:
@@ -33,6 +36,9 @@
     -
       name: About Philly Pigeon Tours
       href: "/about"
+    -
+      name: Our values
+      href: "/values"
     -
       name: In the media
       href: "/media"

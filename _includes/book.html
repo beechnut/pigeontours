@@ -1,15 +1,15 @@
 <!-- TODO: Use a widget without analytics in non-production environments -->
 <div class="book">
   <center>
-  <h3>Book your tour</h3>
-  <p>5 stars on TripAdvisor!</p>
-  {% include tickets.html tour=include.tour city=include.city %}
-  {% if tour %}
-    {% unless city %}
-      <p>
-        This calendar only shows {{ tour.name }} tours. <a href="{{ tour.city.url }}">See&nbsp;all&nbsp;{{ tour.city.name }}&nbsp;tours.</a>
-      </p>
-    {% endunless %}
-  {% endif %}
-</center>
+    <h3>Book your tour</h3>
+    <p>5 stars on TripAdvisor!</p>
+    {% include tickets.html tour=include.tour city=include.city %}
+    {% if tour %}
+      {% unless city %}
+        <p>
+          This calendar only shows {{ tour.name }} tours. <a href="{{ tour.city.url }}">See&nbsp;all&nbsp;{{ tour.city.name }}&nbsp;tours.</a>
+        </p>
+      {% endunless %}
+    {% endif %}
+  </center>
 </div>
