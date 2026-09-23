@@ -8,6 +8,8 @@ layout: home
   <section class="top">
     <center>
       <a href="/philly" class="outline contrast center" role="button">🎟️ Get Philly tickets</a>
+      &nbsp;
+      <a href="https://buttondown.com/pigeontours/forms/subscribe" target="_blank" class="outline contrast center" role="button">🐦 Get pigeon updates</a>
       <br/><br/>
       <blockquote>
         &quot;<em>A drop of pure good<br/>in this increasingly terrifying world.</em>&quot;
