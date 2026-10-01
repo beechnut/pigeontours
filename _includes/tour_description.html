@@ -32,12 +32,14 @@
 ### Duration
 This tour lasts **{{ tour.duration }}**.
 
-Out of respect for your time, we aim to start the tour right on&nbsp;time.
+Out of respect for your time, we aim to start the tour right on&nbsp;time. Please plan to arrive a few minutes early.
 
 Most tours end around 90 minutes, but sometimes run a little longer based on the interests of the group. We recommend planning for 2&nbsp;hours.
 
 ### Distance
 {{ tour.distance }}
+
+{% if tour.seating %}{{ tour.seating }}{% endif %}
 
 ### Meetup location
 {{ tour.points.start }} {{ tour.points.end }}
@@ -52,16 +54,11 @@ Most tours end around 90 minutes, but sometimes run a little longer based on the
   {{ tour.accessibility }}
 {% endif %}
 
-If you have specific mobility needs or questions, [please get in touch](mailto:hello@phillypigeontours.com), and we'll work with you to meet your&nbsp;needs.
+If you have specific mobility needs or questions, [please get in touch](mailto:{{ tour.city.email }}), and we'll work with you to meet your&nbsp;needs.
 
-### Restrooms
+### {{ tour.city.restroom | default: "restroom" | capitalize }}
 
-{% if tour.restroom %}
-There is a restroom at the start/end&nbsp;location.
-{% if tour.restroom_note %}{{ tour.restroom_note }}{% endif %}
-{% else %}
-No restroom is available at the start/end location, though there may be some in the nearby&nbsp;area.
-{% endif %}
+{{ tour.restroom }}
 
 ### Food and water
 
@@ -71,13 +68,14 @@ No restroom is available at the start/end location, though there may be some in 
 
 {{ tour.transit }}
 
+{% if parking %}
 ### Parking
-
 The meetup location has the following parking&nbsp;nearby:
 
 {{ tour.parking.locations }}
 
 {{ tour.parking.note }}
+{% endif %}
 
 {% include what_to_bring.md %}
 </section>

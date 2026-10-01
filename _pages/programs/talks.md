@@ -1,4 +1,5 @@
 ---
+address: speaking@pigeontours.org
 ---
 <div class="container">
 <section markdown="1">
@@ -18,9 +19,9 @@ Co-founders and tour guides Hannah Michelle and Aspen can speak about pigeons fr
 - science&nbsp;communication
 </div>
 
-We're open to giving keynotes, joining panel discussions, or leading educational workshops. We also offer [youth programs](/programs/youth) for schools and colleges.
+We're open to giving keynotes, joining or moderating panel discussions, or leading educational workshops. We also offer [youth programs](/programs/youth) for schools and colleges.
 
-{% include email.html text="Request a talk" %}
+{% include email.html address=page.address text="Request a talk" %}
 </section>
 
 
@@ -28,14 +29,15 @@ We're open to giving keynotes, joining panel discussions, or leading educational
 {% assign past_events = site.data.speaking | where: "future", nil %}
 
 <section markdown="1">
+{% unless future_events == empty %}
 ## Upcoming talks
-
 {% for event in future_events %}
 **{{ event.title }}**
 <br />[{{ event.venue }}]({{ event.link }})
 <br />{{ event.location }}
 <br />{{ event.date }}
 {% endfor %}
+{% endunless %}
 
 ## Past talks
 
@@ -46,6 +48,6 @@ We're open to giving keynotes, joining panel discussions, or leading educational
 <br />{{ event.date }}
 {% endfor %}
 
-{% include email.html text="Request a talk" %}
+{% include email.html address=page.address text="Request a talk" %}
 </section>
 </div>

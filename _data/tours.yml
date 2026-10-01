@@ -3,17 +3,29 @@ collections:
     name: "Philly"
     url: /philly
     embed_id: "e6141fdc-7876-451a-a045-980b34e41250"
+    email: hello@phillypigeontours.org
   nyc: &nyc
     name: "New York"
     url: /nyc
     embed_id: "9c7f0293-1857-4c0c-b6ed-6317c866d7f9"
+    email: hello@phillypigeontours.org
   boston: &boston
     name: "Boston"
     url: /boston
     embed_id: "580a193c-a236-4422-a592-c47269aaa36a"
+    email: hello@phillypigeontours.org
+  london: &london
+    name: "London"
+    url: /london
+    embed_id: "d7cf6fe9-f05a-4227-b95c-adb2afc1b3cc"
+    email: london@pigeontours.org
+    restroom: toilets
   all:
     name: "all"
     embed_id: "1b9590ca-a400-4484-bfea-796fab9c6010"
+  null_event:
+    embed_id: "0f9c6308-f8de-46a3-8fc2-07927fc845ac"
+
 
 
 italian_market: &italian_market
@@ -24,11 +36,15 @@ italian_market: &italian_market
   distance: 1 mile / 1.6 km
   duration: 90 mins - 2 hrs
   neighborhood: Bella Vista
+  binoculars: true
   points:
     start: We meet outside Get a Gato cat cafe, 638 Christian Street (7th & Christian).
     end: The tour ends at the same location.
   accessibility: default
-  restroom: yes
+  restroom: |
+    There is a restroom at the start/end location.
+
+    There are no convenient public restrooms on our route, but in an emergency there are nearby businesses.
   food: |
     Get a Gato has baked goods, coffee/tea drinks, and water. We recommend arriving at least 15 minutes early if you plan to order something &mdash; the line can be long when we have full tours!
   transit: |
@@ -56,11 +72,16 @@ center_city: &center_city
   distance: 1 mile / 1.6 km
   duration: 90 mins - 2 hrs
   neighborhood: Center City
+  binoculars: true
   points:
     start: We start the tour at Philadelphia City Hall.
     end: The tour ends in the same location.
-  restroom: yes
-  restroom_note: A public toilet ("Philly Phlush") is available at 15th & Arch.
+  restroom: |
+    Restrooms are sometimes available at City Hall, when the building is open. Some tours start before the building opens.
+
+    An accessible public toilet ("Philly Phlush") is always available at 15th & Arch, near our start/end location.
+
+    There is also a restroom at our second stop near Reading Terminal Market.
   food: |
     We recommend bringing water with you. There are food
     establishments near City Hall you can visit before or after the tour.
@@ -86,6 +107,7 @@ america: &america
   distance: 1 mile / 1.6 km
   duration: 90 mins - 2 hrs
   neighborhood: Bella Vista
+  binoculars: true
   learn_more_emoji: 🗽
   url: /america
 
@@ -97,6 +119,7 @@ manhattan: &manhattan
   distance: 1 mile / 1.6 km
   duration: 90 mins - 2 hrs
   neighborhood: Midtown Manhattan
+  binoculars: true
   learn_more_emoji: 🗽
   url: /nyc/manhattan
 
@@ -108,6 +131,7 @@ brooklyn: &brooklyn
   distance: 1.3 miles / 2 km
   duration: 90 mins - 2 hrs
   neighborhood: Prospect Park
+  binoculars: true
   learn_more_emoji: 🍕
   url: /nyc/brooklyn
 
@@ -119,6 +143,7 @@ downtown_boston: &downtown_boston
   distance: 0.75 miles / 1.25 km
   duration: 90 mins - 2 hrs
   neighborhood: Boston&nbsp;Common & Downtown&nbsp;Crossing
+  binoculars: true
   points:
     start: We meet near the Boston Irish Famine Memorial Statue, 24 School St.
     end: The tour ends at the same location.
@@ -151,6 +176,44 @@ north_end: &north_end
   distance: 1 miles / 1.6 km
   duration: 90 mins - 2 hrs
   neighborhood: North&nbsp;End & Faneuil&nbsp;Hall
+  binoculars: true
   learn_more_emoji: 🇮🇹
   url: /boston/north-end
 
+london: &london_tour
+  name: London pigeon
+  city: *london
+  embed_id: "d7cf6fe9-f05a-4227-b95c-adb2afc1b3cc"
+  tagline: Meet the pigeons (and other birds) of St. James's Park!
+  distance: About 1.5 miles (2.4 km)
+  duration: 90 mins - 2 hrs
+  neighborhood: St. James's
+  learn_more_emoji: 🇬🇧
+  url: /london
+  seating: There are few places to sit along the way.
+  points:
+    start: We'll meet in Trafalgar Square.
+    end: The tour will conclude outside of St. James's Cafè, about a 10 minute walk from Trafalgar Square.
+  restroom: |
+    There are public toilets available at the meetup point. There are also toilets at St. James’s Café (although you may need to make a purchase to access them) and public toilets by Marlborough Gate and the Horse Guard Parade Café.
+
+    The charge for public toilets is 20p and you will need to pay via card/contactless.
+  food: |
+    Aside from the park cafes (St. James’s, Horse Guard Parade, and Storey’s Gate), there are refreshments kiosks throughout the park, including at Marlborough Gate, Horse Shoe Bend, Artillery Memorial, and the playground.
+
+    There is a drinking fountain near Marlborough Gate. Just inside the gate, facing towards the park, turn down the left-hand path. The fountain will be on your left.
+  transit: |
+    **By Tube**: Charing Cross (Bakerloo and Northern lines) is the nearest Tube station, with an entrance/exit on Trafalgar Square.
+
+    **By bus**: There are numerous bus routes that serve Trafalgar Square. You can plan your journey using the [Transport for London bus map](https://tfl.gov.uk/maps/bus).
+
+    **By train**: The Charing Cross railway station (Southeastern Railway) is about a three minute walk from Trafalgar Square.
+  accessibility: |
+    The pavement in the park is relatively flat. We are not aware of permanent obstacles to wheelchairs or other mobility devices along our route. Unexpected obstacles (like construction) may occur, but we’ll route around them.
+
+    Generally, we will be **walking and standing**, but there are **occasional benches** available along the route.
+
+    The toilets at Marlborough Gate and in Trafalgar Square are accessible.
+
+  parking: false
+  binoculars: false

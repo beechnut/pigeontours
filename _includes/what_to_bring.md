@@ -10,4 +10,6 @@ Pigeon tours are rain-or-shine &mdash; just like&nbsp;pigeons &mdash; so make su
 - Your binoculars, if you have a pair you like
 </div>
 
+{% if tour.binoculars %}
 If you don't have your own binoculars, no worries &mdash; you can borrow one of our loaner&nbsp;pairs!
+{% endif %}

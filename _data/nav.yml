@@ -3,20 +3,21 @@
   href: "/"
   children: false
 -
-  name: Tours
+  name: Destinations
   children:
     -
-      name: Italian Market
-      href: "/philly/italian-market"
-    -
-      name: Center City
-      href: "/philly/center-city"
-    -
-      name: Private tours
-      href: "/programs/private"
+      name: Philly
+      href: "/philly"
     # -
-    #   name: Bring us to your city
-    #   href: "/your-city"
+    #   name: Providence
+    #   href: "/providence"
+    -
+      name: London
+      href: "/london"
+-
+  name: Private tours
+  href: "/private"
+  children: false
 -
   name: Programs
   children:
@@ -31,7 +32,7 @@
   href: "/gift"
   children: false
 -
-  name: About us
+  name: About
   children:
     -
       name: About Philly Pigeon Tours
@@ -42,8 +43,8 @@
     -
       name: In the media
       href: "/media"
--
-  name: Donate
-  href: "/donate"
-  children: false
-  button: true
+# -
+#   name: Donate
+#   href: "/donate"
+#   children: false
+#   button: true

@@ -1,5 +1,11 @@
+{% if include.address %}
+  {% assign address = include.address %}
+{% else %}
+  {% assign address = site.data.config.email %}
+{% endif %}
+
 <center>
-<a href="mailto:{{ site.data.config.email }}" role="button" style="margin-top: 2rem; margin-bottom: 1rem;">
+<a href="mailto:{{ address }}" role="button" style="margin-top: 2rem; margin-bottom: 1rem;">
   ✉️ {{ include.text }}
 </a>
 </center>

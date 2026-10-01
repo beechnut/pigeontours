@@ -39,3 +39,18 @@ brick-ledge:
   credit: Photo by <a href="https://unsplash.com/@nardly?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Bernard</a> on <a href="https://unsplash.com/photos/a-flock-of-pigeons-standing-on-a-window-sill-TbwZM70hm5A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 logo-bar:
   src: /assets/images/logos/bar.png
+london-underground:
+  src: /assets/images/london/christian-lendl-qHx4EAYbjgM-unsplash.jpg
+  credit: Photo by <a href="https://unsplash.com/@dchris?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christian Lendl</a> on <a href="https://unsplash.com/photos/a-group-of-pigeons-sitting-on-a-rail-next-to-a-sign-qHx4EAYbjgM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+london-skyline:
+  src: /assets/images/london/taylor-floyd-mews-Mmzpmh3FnyI-unsplash.jpg
+  credit: Photo by <a href="https://unsplash.com/@tfloydmews?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Taylor Floyd Mews</a> on <a href="https://unsplash.com/photos/white-and-black-bird-flying-over-city-buildings-during-daytime-Mmzpmh3FnyI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+london-trafalgar:
+  src: /assets/images/london/mike-lacey-luqKrTieDlo-unsplash.jpg
+  credit: Photo by <a href="https://unsplash.com/@mikelacey15?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mike Lacey</a> on <a href="https://unsplash.com/photos/flying-bird-under-white-sky-luqKrTieDlo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+london-pigeons-bird-guide:
+  src: /assets/images/london-pigeons-bird-guide.jpg
+  credit: Photo by Rebecca Gyllenhaal
+london-walking-ledge:
+  src: /assets/images/london/sean-zeng-ksah25PRU8Q-unsplash.jpg
+  credit: Photo by <a href="https://unsplash.com/@saziky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sean Zeng</a> on <a href="https://unsplash.com/photos/a-pigeon-sitting-on-the-edge-of-a-bridge-ksah25PRU8Q?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

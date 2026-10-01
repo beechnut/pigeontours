@@ -3,7 +3,7 @@ title: Youth programs
 ---
 <div class="container">
 <section markdown="1">
-# Youth Tours &&nbsp;Programs
+# Youth tours &amp; programs
 
 Pigeons can be a fun and attention-grabbing way to learn about a variety of topics, including science, history, and culture.
 
@@ -33,15 +33,17 @@ Depending on the interests the the group, we can include the following in any yo
 
 Our 90-minute Pigeon Tours are great for kids and teens ages 8&nbsp;&ndash;&nbsp;18.
 
-These tours typically take place along our Italian Market route in Bella Vista. If you know of pigeon flocks closer to you, we’re happy to join you there for the tour instead.
+These tours typically take place along our standard tour routes. If you know of pigeon flocks closer to you, we’re happy to join you there for the tour instead.
 
 Youth tours always include observations of pigeon behaviors and and discussions of pigeon adaptations and ecology.
+
+Youth tours are available in all cities with pigeon tours.
 
 {% include email.html text="Request a youth tour" %}
 </section>
 
 <section markdown="1">
-## On-site youth programs
+## On-site youth programs (Philly only)
 
 Bring Philly Pigeon Tours to your school, camp, or event!
 
@@ -61,7 +63,7 @@ In this program, we use restorative circle practices to explore our feelings and
 
 In this program, youth learn about some of the incredible innovations humans have developed by mimicking other living beings. Youth will also have a chance to brainstorm ideas for new innovations that pull ideas from other creatures.
 
-{% include email.html text="Inquire about youth programs" %}
+{% include email.html text="Request an on-site program" %}
 </section>
 
 <section markdown="1">
@@ -69,13 +71,20 @@ In this program, youth learn about some of the incredible innovations humans hav
 
 ### Standard pricing
 
-A standard 90-minute programs is $30 per child, with a minimum total of $350.
+The table below shows pricing for a 90-minute youth tour or program.
+
+<table>
+  <thead><th>Location</th><th>Price per child</th><th>Tour minimum</th></thead>
+  <tr><td>Philly</td><td>$30</td><td>$350</td></tr>
+  <tr><td>London</td><td>£25</td><td>£300</td></tr>
+</table>
+
 
 ### Gift economy pricing
 
 We understand that our pricing may be out of reach for homeschool groups, non-profits, and schools with a smaller budget. In these cases, we use a gift economy model.
 
-If you know that our standard pricing is out of reach, please email us with an offer that works for your budget and also supports our program. While considering your offer, please keep in mind that this is one of our main sources of income.
+If you know that our standard pricing is out of reach, please email us with an offer that works for your budget and also supports our program. While considering your offer, please keep in mind that we are a small company and that this is one of our main sources of income.
 </section>
 
 

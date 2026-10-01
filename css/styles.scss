@@ -87,7 +87,9 @@
   }
 
   nav {
-    a { color: var(--pigeon-dark-bluegreen); }
+    a {
+      color: var(--pigeon-dark-bluegreen);
+    }
     button, a[role='button'] { color: white; }
 
     details.dropdown > summary {
@@ -163,8 +165,8 @@ main.container-fluid {
 nav {
   align-items: center;
   justify-content: center;
-  --pico-font-weight: 300;
-  --pico-font-size: 1rem;
+  font-size: 0.9rem;
+  --pico-font-weight: 400;
 
   > ul {
     flex-wrap: wrap;
@@ -176,8 +178,8 @@ nav {
 
   > ul > li {
     height: 3.5rem; // 66px, to even the baselines out
-    padding-left: calc(var(--pico-nav-element-spacing-horizontal) * 1.25);
-    padding-right: calc(var(--pico-nav-element-spacing-horizontal) * 1.25);
+    padding-left: --pico-nav-element-spacing-horizontal;
+    padding-right: --pico-nav-element-spacing-horizontal;
 
     &:has(> details) {
       padding-top: calc(var(--pico-nav-element-spacing-vertical) * 0.6);
@@ -193,7 +195,7 @@ nav {
 
   details:open {
     text-decoration: underline;
-    font-weight: 500;
+    --pico-font-weight: 400;
   }
 
 }
