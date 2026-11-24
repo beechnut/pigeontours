@@ -36,7 +36,7 @@ Pigeon tours are walking tours, featuring pigeons!
 
 We domesticated pigeons thousands of years ago, and brought them to our cities. About 60 years ago, we abandoned them and started hating them. On this tour, you'll learn why and how that happened, and how our future can &mdash; hopefully &mdash; be&nbsp;different.
 
-If you're looking for something to do in Philly that's little unusual, you'll be right at home on a pigeon&nbsp;tour.
+If you're looking for something to do in Philly or London that's little unusual, you'll be right at home on a pigeon&nbsp;tour.
 
 **Do I have to already like pigeons?**
 
@@ -52,8 +52,7 @@ No, these tours are for everyone! We provide loaner binoculars and teach basic b
 </div>
 
 <div class="container top">
-<div class="grid">
-<div markdown="1">
+<section markdown="1">
 <!-- photos for each chunk -->
 ## On a typical pigeon tour...
 
@@ -66,9 +65,7 @@ No, these tours are for everyone! We provide loaner binoculars and teach basic b
 - We explore how people and pigeons have related throughout history.
 
 - We show how people around the world relate to pigeons differently.
-</div>
-{% include book.html city="all" %}
-</div>
+</section>
 
 <section class="top bottom" markdown="1">
 ## Contact us

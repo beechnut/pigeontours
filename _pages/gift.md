@@ -8,13 +8,15 @@ title: Gift cards
 <div markdown="1">
 # Gift Cards
 
-Looking for a unique gift? Give the experience of a pigeon tour!
+**NOTE: Only for Philly, London gift cards coming very soon**
+
+Give the experience of a pigeon&nbsp;tour!
 
 There are two ways to select a gift card amount.
 
 1. Click "Select product", and pick a tour and the number of tickets. This method fills in the amount automatically.
 
-2. Or, type an amount in directly.
+2. Or, type in an amount directly.
 </div>
 
 <div>
