@@ -1,18 +1,11 @@
-<!-- TODO: Use a widget without analytics in non-production environments -->
 <div class="book">
   <center>
     <h3>Book your tour</h3>
     <p>5 stars on TripAdvisor!</p>
     {% if jekyll.environment == "production" %}
-      {% if tour %}
-        {% unless city %}
-          <p>
-            This calendar only shows {{ tour.name }} tours. <a href="{{ tour.city.url }}">See&nbsp;all&nbsp;{{ tour.city.name }}&nbsp;tours.</a>
-          </p>
-        {% endunless %}
-      {% endif %}
+      {% include tickets.html tour=include.tour city=include.city %}
     {% else %}
-      {% include tickets.html tour=null_tour %}
+      <p>Development environment, skipping tickets</p>
     {% endif %}
   </center>
 </div>
